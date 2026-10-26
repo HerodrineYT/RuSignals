@@ -11,7 +11,7 @@ using UnityModManagerNet;
 namespace RuSignals;
 public static class Mod
 {
-    public const string Id="ru.signals",Version="4.3.4";
+    public const string Id="ru.signals",Version="0.1.0";
     private static SignalAssets assets;private static SignalPack pack;
     private static GameObject templates,clock;private static Harmony harmony;
     private static bool aspectFactory,displayFactory,nameFactory;

@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.IO.Compression;
 
-const string version="4.3.4",previousVersion="4.3.3";
+const string version="0.1.0",previousVersion="4.3.3";
 string root=Path.GetFullPath(args.Length>0?args[0]:Environment.CurrentDirectory);
 string source=Path.Combine(root,"src/RuSignals.Next"),reports=Path.Combine(root,"artifacts/ru-signals-"+version);
 string baseline=Path.Combine(root,"work/rusignals-v433-source-check");

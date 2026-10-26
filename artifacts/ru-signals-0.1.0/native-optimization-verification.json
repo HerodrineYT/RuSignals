@@ -1,6 +1,6 @@
 {
-    "version": "4.3.4",
-    "dll_sha256": "18ccd862549afb43d4b86ba4b853a552fea27eff5a76aee27ba2c063a0b58bbe",
+    "version": "0.1.0",
+    "dll_sha256": "ee17ddc5e901467a142c8a52a5e83ecc96d8a64b9972dece6678a38cba0a1b15",
     "sdk_module": "5ba6bfa5-0bf0-42d9-949b-cb1ec56eeeb2",
     "scope": "Actual DVSignals methods toggled between original and integrated prefixes in Unity Mono; synthetic tracks, manual occupations and real crossing physics. Logic-yard ID classification supplied by the fixture. No game map or FPS; -1 allocation counter unavailable.",
     "occupation_cases": 768,
@@ -16,19 +16,19 @@
         {
             "name": "native clear block, 7 entries",
             "iterations": 100000,
-            "median_ms": 360.5242,
+            "median_ms": 385.8125,
             "allocated_bytes": -1
         },
         {
             "name": "native clear reservation, 6 tracks",
             "iterations": 100000,
-            "median_ms": 113.4111,
+            "median_ms": 116.48150000000001,
             "allocated_bytes": -1
         },
         {
             "name": "native cubic bounds",
             "iterations": 100000,
-            "median_ms": 152.50390000000002,
+            "median_ms": 147.17680000000002,
             "allocated_bytes": -1
         }
     ],
@@ -36,19 +36,19 @@
         {
             "name": "native clear block, 7 entries",
             "iterations": 100000,
-            "median_ms": 238.5679,
+            "median_ms": 250.4606,
             "allocated_bytes": -1
         },
         {
             "name": "native clear reservation, 6 tracks",
             "iterations": 100000,
-            "median_ms": 77.6177,
+            "median_ms": 82.0851,
             "allocated_bytes": -1
         },
         {
             "name": "native cubic bounds",
             "iterations": 100000,
-            "median_ms": 114.1884,
+            "median_ms": 115.55160000000001,
             "allocated_bytes": -1
         }
     ]

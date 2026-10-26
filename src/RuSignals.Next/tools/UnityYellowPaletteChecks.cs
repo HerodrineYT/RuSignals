@@ -19,7 +19,7 @@ public static partial class UnityRewriteCheck
     private static void YellowPaletteChecks(Assembly assembly,object assets,string output)
     {
         int start=passed;var variation=assembly.GetType("RuSignals.LensVariation",true);var palette=assembly.GetType("RuSignals.LampPalette",true);var names=new[]{"Red","Yellow","Green","Blue","White"};
-        var baseline=JsonUtility.FromJson<UnityPaletteBaselineCapture.Report>(File.ReadAllText(Path.Combine(Environment.GetEnvironmentVariable("RUS_V2_ROOT"),"artifacts/ru-signals-4.3.4/palette-baseline-3.0.14.json")));
+        var baseline=JsonUtility.FromJson<UnityPaletteBaselineCapture.Report>(File.ReadAllText(Path.Combine(Environment.GetEnvironmentVariable("RUS_V2_ROOT"),"artifacts/ru-signals-0.1.0/palette-baseline-3.0.14.json")));
         if(baseline.version!="3.0.14"||baseline.entries.Length!=480||baseline.dll_sha256!="e19ff8516411987a2fa495d6f31d4f657e2f8638b0471078c9f0e66ff81d6125")throw new Exception("Previous release palette baseline mismatch");
         foreach(var entry in baseline.entries.Where(e=>e.family!=1))
         {

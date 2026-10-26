@@ -5,7 +5,7 @@
     <Nullable>disable</Nullable>
     <AssemblyName>RuSignals</AssemblyName>
     <RootNamespace>RuSignals</RootNamespace>
-    <Version>4.3.4</Version>
+    <Version>0.1.0</Version>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GameDir Condition="'$(GameDir)' == ''">F:\steam\steamapps\common\Derail Valley</GameDir>
   </PropertyGroup>

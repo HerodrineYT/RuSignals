@@ -2,7 +2,7 @@
   "Id": "ru.signals",
   "Author": "Herodrine_",
   "DisplayName": "RuSignals",
-  "Version": "4.3.4",
+  "Version": "0.1.0",
   "ManagerVersion": "0.27.3",
   "AssemblyName": "RuSignals.dll",
   "EntryMethod": "RuSignals.Mod.Load",

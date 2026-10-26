@@ -85,7 +85,7 @@ public static partial class UnityRewriteCheck
                 combinations.Add(optical*96+tint);
             }
             Check(combinations.Count==192,"Both optical patterns independently cover all 96 tint variants");
-            string baselinePath=Path.Combine(Environment.GetEnvironmentVariable("RUS_V2_ROOT"),"artifacts/ru-signals-4.3.4/palette-baseline-3.0.11.json");
+            string baselinePath=Path.Combine(Environment.GetEnvironmentVariable("RUS_V2_ROOT"),"artifacts/ru-signals-0.1.0/palette-baseline-3.0.11.json");
             var baseline=JsonUtility.FromJson<UnityPaletteBaselineCapture.Report>(File.ReadAllText(baselinePath));
             if(baseline.version!="3.0.11"||baseline.dll_sha256!="59c7b428203a30e68e5a435709211eeab479782df52c7cb2482dd25770ce0315"||baseline.entries.Length!=160)throw new Exception("Original release palette baseline missing or changed");
             foreach(var entry in baseline.entries.Where(e=>e.family!=1))

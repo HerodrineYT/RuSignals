@@ -51,7 +51,7 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--assets',type=Path,default=ASSETS)
     ap.add_argument('--samples',type=int,default=1001)
     ap.add_argument('--pin',type=float,nargs=2,help='Optional proposal-only pin XY; never edits exported assets')
-    ap.add_argument('--report',type=Path,default=ASSETS.parents[2]/'artifacts/ru-signals-4.3.4/rod-static-clearance-independent.json')
+    ap.add_argument('--report',type=Path,default=ASSETS.parents[2]/'artifacts/ru-signals-0.1.0/rod-static-clearance-independent.json')
     args=ap.parse_args();meta=json.loads((args.assets/'SolidHoods/mechanism8371.json').read_text())
     pin=np.array(args.pin if args.pin is not None else meta['wing_pin']);obstacles=[]
     for key in ('static','lowerfittings'):

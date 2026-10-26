@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework><LangVersion>latest</LangVersion><Nullable>disable</Nullable>
-    <Version>4.3.4</Version><AssemblyName>RuSignals.RsgBridge</AssemblyName>
+    <Version>0.1.0</Version><AssemblyName>RuSignals.RsgBridge</AssemblyName>
     <GameDir Condition="'$(GameDir)' == ''">F:\steam\steamapps\common\Derail Valley</GameDir>
     <RsgDir Condition="'$(RsgDir)' == ''">$(GameDir)\Mods\RailwaySafetyGadgets</RsgDir>
   </PropertyGroup>

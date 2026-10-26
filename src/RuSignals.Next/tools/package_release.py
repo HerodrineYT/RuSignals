@@ -4,7 +4,7 @@ from datetime import datetime,timezone
 import hashlib,json,os,re,shutil,zipfile
 
 ROOT=Path(__file__).resolve().parents[3]
-VERSION='4.3.4'
+VERSION='0.1.0'
 SOURCE=ROOT/'src/RuSignals.Next'
 BRIDGE=ROOT/'src/RuSignals.Next.RsgBridge'
 REPORTS=ROOT/f'artifacts/ru-signals-{VERSION}'

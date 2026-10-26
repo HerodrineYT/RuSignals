@@ -111,7 +111,7 @@ public static partial class UnityRewriteCheck
     }
     private static void MaterialSharingChecks(Assembly assembly,Assembly common,object assets,GameObject holder,Component phone,string root,string output)
     {
-        var reference=JsonUtility.FromJson<MaterialReference>(File.ReadAllText(Path.Combine(root,"artifacts/ru-signals-4.3.4/material-reference.json")));
+        var reference=JsonUtility.FromJson<MaterialReference>(File.ReadAllText(Path.Combine(root,"artifacts/ru-signals-0.1.0/material-reference.json")));
         Check(reference.version=="3.0.5","Material reference is the released 3.0.5 DLL captured in a separate Unity process");
         var removedAuxiliary=reference.renderers.Where(r=>r.name=="Auxiliary lamp housing"||r.name=="Moon-white lens").ToArray();
         Check(removedAuxiliary.Length==6,"Original three auxiliary lantern housings and lenses are the only newly removed renderer entries");

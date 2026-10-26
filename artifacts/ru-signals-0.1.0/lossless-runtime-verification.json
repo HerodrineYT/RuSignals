@@ -1,6 +1,6 @@
 {
-    "version": "4.3.4",
-    "dll_sha256": "18ccd862549afb43d4b86ba4b853a552fea27eff5a76aee27ba2c063a0b58bbe",
+    "version": "0.1.0",
+    "dll_sha256": "ee17ddc5e901467a142c8a52a5e83ecc96d8a64b9972dece6678a38cba0a1b15",
     "reference_version": "3.0.8",
     "reference_dll_sha256": "5de73a9c6a18da1a969f6c7ad47e085de9e54b0fb6662060caa8e03e805a1337",
     "unity": "2019.4.40f1",
@@ -14,31 +14,31 @@
         {
             "name": "ManualOccupancy",
             "iterations": 100000,
-            "median_ms": 48.7487,
+            "median_ms": 48.2646,
             "allocated_bytes": -1
         },
         {
             "name": "Reservations",
             "iterations": 100000,
-            "median_ms": 49.6132,
+            "median_ms": 47.8797,
             "allocated_bytes": -1
         },
         {
             "name": "ReservationTracks",
             "iterations": 100000,
-            "median_ms": 49.8329,
+            "median_ms": 47.7505,
             "allocated_bytes": -1
         },
         {
             "name": "Timers",
             "iterations": 100000,
-            "median_ms": 50.5073,
+            "median_ms": 47.6893,
             "allocated_bytes": -1
         },
         {
             "name": "Times",
             "iterations": 100000,
-            "median_ms": 55.4262,
+            "median_ms": 47.688,
             "allocated_bytes": -1
         }
     ],
@@ -46,31 +46,31 @@
         {
             "name": "ManualOccupancy",
             "iterations": 100000,
-            "median_ms": 1.7675,
+            "median_ms": 1.6759000000000002,
             "allocated_bytes": -1
         },
         {
             "name": "Reservations",
             "iterations": 100000,
-            "median_ms": 1.7776,
+            "median_ms": 1.7513,
             "allocated_bytes": -1
         },
         {
             "name": "ReservationTracks",
             "iterations": 100000,
-            "median_ms": 1.8509,
+            "median_ms": 1.6945000000000002,
             "allocated_bytes": -1
         },
         {
             "name": "Timers",
             "iterations": 100000,
-            "median_ms": 1.8076,
+            "median_ms": 1.661,
             "allocated_bytes": -1
         },
         {
             "name": "Times",
             "iterations": 100000,
-            "median_ms": 2.0599000000000005,
+            "median_ms": 1.9048,
             "allocated_bytes": -1
         }
     ],
@@ -78,13 +78,13 @@
         {
             "name": "spill selection 256",
             "iterations": 200,
-            "median_ms": 15.4428,
+            "median_ms": 15.1841,
             "allocated_bytes": -1
         },
         {
             "name": "spill selection 1024",
             "iterations": 200,
-            "median_ms": 57.083200000000008,
+            "median_ms": 56.072100000000009,
             "allocated_bytes": -1
         }
     ]
