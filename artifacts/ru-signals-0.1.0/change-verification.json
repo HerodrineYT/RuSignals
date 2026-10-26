@@ -43,7 +43,7 @@
     "src/RuSignals.Next/Core/SignalCatalogue.cs": "37c3782e9f3389232c7826b29ac4fcba51a8b056ab1b2f03609437671832df21",
     "src/RuSignals.Next/Core/SignalRules.cs": "39ad20d82ae6845ff9305dbac57a76122a38f2b378ec47999eca00b6f7cceade",
     "src/RuSignals.Next/Core/SignalTiming.cs": "7907a1f7879d817a24130a402d2b19fcf26e14f743060f6c8e518566a08a6a74",
-    "src/RuSignals.Next/Info.json": "f74b2832c93bdae9ca57deb4a8d3539cdbca5407424e7eefeabc82102f5b356c",
+    "src/RuSignals.Next/Info.json": "e3272927c0accf1153442ba7e105d9b66bd18df8216bfcd8c3000d86f899fce0",
     "src/RuSignals.Next/Mod.cs": "0e682d40a9d1f5c35256a63a1cf39303ece59f28b7b5e069b677f08c6cb74b2b",
     "src/RuSignals.Next/Native/AutomaticBlock.cs": "669efe944394f88b9eda1654ab39aa17680f1296101b0aba862fbb00c36f9a3b",
     "src/RuSignals.Next/Native/DispatcherIntegration.cs": "4425cc38e94e07dfaaaebf373625895d91148c129f45366756cdd6a3318cf287",
@@ -252,6 +252,10 @@
     "src/RuSignals.Next/Content/PlatformSupportFit.cs": {
       "previous_sha256": null,
       "sha256": "2658ce349a62beb2cde81a44b34cfe16bde9b736b19f99bf2d403fcef0c8f852"
+    },
+    "src/RuSignals.Next/Info.json": {
+      "previous_sha256": "b1ef0f0b0db40e2867aaed19a61bfc3e5a13409220cbc3ddfcb8e416e25ce47a",
+      "sha256": "e3272927c0accf1153442ba7e105d9b66bd18df8216bfcd8c3000d86f899fce0"
     }
   },
   "new_frame_callbacks": 0,

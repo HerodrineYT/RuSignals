@@ -7,6 +7,7 @@ const string version="0.1.0",previousVersion="4.3.3";
 string root=Path.GetFullPath(args.Length>0?args[0]:Environment.CurrentDirectory);
 string source=Path.Combine(root,"src/RuSignals.Next"),reports=Path.Combine(root,"artifacts/ru-signals-"+version);
 string baseline=Path.Combine(root,"work/rusignals-v433-source-check");
+string suffix=args.FirstOrDefault(a=>a.StartsWith("--suffix=",StringComparison.Ordinal))?.Substring(9)??"";
 string Hash(string file)=>Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(file))).ToLowerInvariant();
 string Text(string file)=>File.ReadAllText(file).Replace("\r\n","\n");
 JsonObject Read(string file)=>JsonNode.Parse(File.ReadAllText(file))!.AsObject();
@@ -16,7 +17,8 @@ IEnumerable<string> Files(string directory)=>Directory.EnumerateFiles(directory,
 
 if(args.Contains("--archives"))
 {
-    foreach(string archiveName in new[]{"RuSignals-"+version+".zip","RuSignals-"+version+"-source.zip"})
+    Require(suffix.All(c=>char.IsAsciiLetterOrDigit(c)||c=='-'),"Invalid archive suffix");
+    foreach(string archiveName in new[]{"RuSignals-"+version+suffix+".zip","RuSignals-"+version+suffix+"-source.zip"})
     {
         using var archive=ZipFile.OpenRead(Path.Combine(root,"dist",archiveName));
         bool runtime=!archiveName.EndsWith("-source.zip",StringComparison.Ordinal);
@@ -31,7 +33,11 @@ if(args.Contains("--archives"))
     Console.WriteLine("PASS runtime/source archive manifests");return;
 }
 
-var changed=new HashSet<string>{"src/RuSignals.Next/Content/SignalAssets.cs","src/RuSignals.Next/Content/PlatformSupportFit.cs"};
+var changed=new HashSet<string>{"src/RuSignals.Next/Content/SignalAssets.cs","src/RuSignals.Next/Content/PlatformSupportFit.cs","src/RuSignals.Next/Info.json"};
+var beforeInfo=JsonNode.Parse(Text(Path.Combine(baseline,"src/RuSignals.Next/Info.json")).Replace(previousVersion,version))!;
+var currentInfo=Read(Path.Combine(source,"Info.json"));
+Require(currentInfo["HomePage"]!.GetValue<string>()=="https://www.nexusmods.com/derailvalley/mods/1794","Wrong mod homepage");
+currentInfo.Remove("HomePage");Require(JsonNode.DeepEquals(beforeInfo,currentInfo),"Info changed outside version and homepage");
 var sources=new SortedDictionary<string,string>();
 foreach(string directory in new[]{"src/RuSignals.Next","src/RuSignals.Next.RsgBridge"})
 {

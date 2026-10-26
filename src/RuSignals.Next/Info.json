@@ -3,6 +3,7 @@
   "Author": "Herodrine_",
   "DisplayName": "RuSignals",
   "Version": "0.1.0",
+  "HomePage": "https://www.nexusmods.com/derailvalley/mods/1794",
   "ManagerVersion": "0.27.3",
   "AssemblyName": "RuSignals.dll",
   "EntryMethod": "RuSignals.Mod.Load",

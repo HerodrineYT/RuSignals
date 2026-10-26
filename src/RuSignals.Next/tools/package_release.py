@@ -5,6 +5,7 @@ import hashlib,json,os,re,shutil,zipfile
 
 ROOT=Path(__file__).resolve().parents[3]
 VERSION='0.1.0'
+PACKAGE_SUFFIX=os.environ.get('RUSIGNALS_PACKAGE_SUFFIX','')
 SOURCE=ROOT/'src/RuSignals.Next'
 BRIDGE=ROOT/'src/RuSignals.Next.RsgBridge'
 REPORTS=ROOT/f'artifacts/ru-signals-{VERSION}'
@@ -30,6 +31,7 @@ def scan_name(path,data):
         require(not any(token.encode(encoding) in data for token in tokens for encoding in ['ascii','utf-16le']),'Former branding in binary: '+path)
 
 def main():
+    require(re.fullmatch(r'[-a-z0-9]*',PACKAGE_SUFFIX) is not None,'Invalid package suffix')
     info=read(SOURCE/'Info.json')
     require(info['Id']=='ru.signals' and info['Version']==VERSION and info['AssemblyName']=='RuSignals.dll' and info['EntryMethod']=='RuSignals.Mod.Load','Inconsistent mod identity')
     require(info['Requirements']==['DVSignals'] and info['Author']=='Herodrine_','Mod dependency or author changed')
@@ -113,10 +115,11 @@ def main():
     for p in [dll,bridge]:scan_name(p.name,p.read_bytes())
     report=dict(version=VERSION,created_utc=datetime.now(timezone.utc).isoformat(),dll_sha256=sha(dll),bridge_sha256=sha(bridge),native_checks=checks,rules=rules['passed'],blocks=blocks['passed'],game_map_tested=False,multiplayer_modified=False,game_installed=False,fps_tested=False)
     write(REPORTS/'release-verification.json',report)
-    stage=ROOT/f'dist/RuSignals-{VERSION}/RuSignals'
+    stage=ROOT/f'dist/RuSignals-{VERSION}{PACKAGE_SUFFIX}/RuSignals'
     require(not stage.exists(),'Release already staged; preserve immutable releases')
     stage.mkdir(parents=True)
     for name in ['Info.json','README_RU.md','ARCHITECTURE_RU.md','SIGNALLING_RU.md']:shutil.copy2(SOURCE/name,stage/name)
+    if (SOURCE/'NEXUS_DESCRIPTION_RU.txt').is_file():shutil.copy2(SOURCE/'NEXUS_DESCRIPTION_RU.txt',stage/'NEXUS_DESCRIPTION_RU.txt')
     shutil.copy2(SOURCE/'Content/REFERENCES_RU.md',stage/'SEMAPHORE_REFERENCES_RU.md')
     for p in [dll,bridge]:shutil.copy2(p,stage/p.name)
     shutil.copytree(SOURCE/'Assets',stage/'Assets')
@@ -141,7 +144,7 @@ def main():
     write(source_manifest,dict(version=VERSION,sha256={p.relative_to(ROOT).as_posix():sha(p) for p in source_files}))
     qa_inputs=[REPORTS/name for name in ['palette-baseline-3.0.11.json','palette-baseline-3.0.14.json','material-reference.json']]
     for p in qa_inputs:scan_name(p.name,p.read_bytes())
-    for archive,files,base in [(ROOT/f'dist/RuSignals-{VERSION}.zip',tree(stage),stage.parent),(ROOT/f'dist/RuSignals-{VERSION}-source.zip',source_files+public+qa_inputs+[source_manifest],ROOT)]:
+    for archive,files,base in [(ROOT/f'dist/RuSignals-{VERSION}{PACKAGE_SUFFIX}.zip',tree(stage),stage.parent),(ROOT/f'dist/RuSignals-{VERSION}{PACKAGE_SUFFIX}-source.zip',source_files+public+qa_inputs+[source_manifest],ROOT)]:
         require(not archive.exists(),'Release already exists: '+archive.name)
         with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
             for p in files:z.write(p,p.relative_to(base).as_posix())
