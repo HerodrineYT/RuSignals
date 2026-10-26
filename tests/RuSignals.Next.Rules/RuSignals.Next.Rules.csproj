@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><LangVersion>latest</LangVersion><Nullable>disable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup><ItemGroup>
+<Compile Include="../../src/RuSignals.Next/Core/SignalRules.cs;../../src/RuSignals.Next/Core/GeometryRules.cs;../../src/RuSignals.Next/Core/CabDisplayRules.cs;../../src/RuSignals.Next/Core/SemaphoreRules.cs;../../src/RuSignals.Next/Content/SemaphoreManifest.cs;../../src/RuSignals.Next/Native/RuAspect.cs;../../src/RuSignals.Next/Runtime/SignalReader.cs;../../src/RuSignals.Next/Runtime/DecisionPass.cs" />
+<Compile Include="../../src/RuSignals.Next/Core/ShieldRegionRules.cs" />
+<Compile Include="../../src/RuSignals.Next/Core/DesignationRules.cs;../../src/RuSignals.Next/Core/CombinedExitRules.cs" />
+<Compile Include="../../src/RuSignals.Next/Core/JunctionRouteRules.cs" />
+<Compile Include="../../src/RuSignals.Next/Core/SignalCatalogue.cs;../../src/RuSignals.Next/Core/SignalTiming.cs" />
+<Reference Include="Newtonsoft.Json"><HintPath>$(DVManagedDir)/Newtonsoft.Json.dll</HintPath></Reference>
+</ItemGroup></Project>

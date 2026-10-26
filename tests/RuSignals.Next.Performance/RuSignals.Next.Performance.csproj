@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><LangVersion>latest</LangVersion><Nullable>disable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+<PropertyGroup Condition="'$(Legacy)' != 'true'"><DefineConstants>$(DefineConstants);REWRITE</DefineConstants></PropertyGroup>
+<ItemGroup><Compile Remove="Baseline/**/*.cs" /></ItemGroup><ItemGroup Condition="'$(Legacy)' == 'true'"><Compile Include="Baseline/AutomaticBlock.cs;Baseline/IntervalReservations.cs;Baseline/BlockMath.cs;Baseline/SignalRules.cs;Baseline/RuAspect.cs;Baseline/RouteDisplay.cs;Baseline/RouteDirection.cs;Baseline/RouteBoardRules.cs;Baseline/RouteLamps.Generated.cs;Baseline/RouteSymbols.cs;Baseline/RouteSymbols.Generated.cs" /></ItemGroup>
+<ItemGroup Condition="'$(Legacy)' != 'true'">
+<Compile Include="../../src/RuSignals.Next/Core/*.cs;../../src/RuSignals.Next/Runtime/*.cs" />
+<Compile Include="../../src/RuSignals.Next/Native/AutomaticBlock.cs;../../src/RuSignals.Next/Native/NativeSdk.cs;../../src/RuSignals.Next/Native/IntervalReservations.cs;../../src/RuSignals.Next/Native/RuAspect.cs;../../src/RuSignals.Next/Native/RouteDisplay.cs;../../src/RuSignals.Next/Content/Route*.Generated.cs" />
+</ItemGroup></Project>

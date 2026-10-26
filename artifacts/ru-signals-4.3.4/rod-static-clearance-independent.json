@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "pin_xy": [
+    0.1847759065,
+    -0.0765366865
+  ],
+  "proposal_only": false,
+  "input_parameter_samples": 1001,
+  "broad_phase_candidates": 0,
+  "triangle_pair_checks": 0,
+  "actual_triangle_intersections": [],
+  "roller_opposite_arm_triangle_intersections": [],
+  "continuous_static_rod_proof": [
+    {
+      "rod": "upper",
+      "conservative_continuous_minimum_gap_m": 0.0049999725818632434,
+      "overlapping_envelopes": []
+    },
+    {
+      "rod": "lower",
+      "conservative_continuous_minimum_gap_m": 0.00651555392356068,
+      "overlapping_envelopes": []
+    }
+  ],
+  "continuous_lower_roller_upper_arm_clearance_m": 0.016398919733653042,
+  "continuous_roller_projection_sampling_margin_m": 2.748893572004324e-05,
+  "scope": "Actual RSM surfaces with triangle SAT; continuous rigid-rod component envelopes from analytic trigonometric extrema; lower follower versus actual projected upper-arm triangles over full0..135deg relative arc with rigorous Lipschitz sample margin"
+}

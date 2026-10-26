@@ -1,0 +1,17 @@
+{
+  "version": "4.3.4",
+  "created_utc": "2026-10-26T19:39:23.028949+00:00",
+  "dll_sha256": "18ccd862549afb43d4b86ba4b853a552fea27eff5a76aee27ba2c063a0b58bbe",
+  "bridge_sha256": "67fbf01540a6105816f7835c310cff5fdf0a168cd845cf613a1de6911df9c623",
+  "native_checks": {
+    "main": 10665,
+    "rsg-legacy": 10656,
+    "power-current": 10606
+  },
+  "rules": 895,
+  "blocks": 830,
+  "game_map_tested": false,
+  "multiplayer_modified": false,
+  "game_installed": false,
+  "fps_tested": false
+}

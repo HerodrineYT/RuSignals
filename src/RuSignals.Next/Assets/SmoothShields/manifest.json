@@ -1,0 +1,197 @@
+{
+  "subdivisions": 8,
+  "models": {
+    "Rounded/shunting_mast_full.rsm": {
+      "source_sha256": "f64899c58cac29aef732f068a07276d9d704500c1102e281c12cf0b3b3a4a704",
+      "derived_sha256": "837d0b8863940747baa9bd2083170d70d1e64f5af9b230a27173049c0d2b22ce",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/shunting_mast_compact.rsm": {
+      "source_sha256": "4eb6aace53d03f7acc47eb14237f4eca050223973c4f6c1f1a695479439526e3",
+      "derived_sha256": "7d277f47eb474047f99458b7313c793fbc8135ab5c1b5df8b531652dbffea837",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/shunting_mast_tunnel.rsm": {
+      "source_sha256": "b087d7e76f32acc1e752b2a56f0975c9ceffabfe117f818d8f83c4a6fbead08e",
+      "derived_sha256": "c8c7965e378105e7055cde8dade1e700c643962d03020f31edf66f6d105ba7ad",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/mast_full.rsm": {
+      "source_sha256": "7e1378af252a26bcf8cbd4956a565ffc166325c7803b96d02428370a65ebf4d1",
+      "derived_sha256": "30817594564b67006965a8d309aa9b0705935c2120c75a5863f15d4e3a37a738",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/mast_compact.rsm": {
+      "source_sha256": "c23cd389097ed2a3748356af351838b6e428237ddf55ffb5204cdebd839369b4",
+      "derived_sha256": "518777654e6868f581ad295c80e7aef975630af04f511b6a99b726de8f5f6406",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/mast_tunnel.rsm": {
+      "source_sha256": "961b7fc6a077e5bf54bbba40267e3e02e10de03abe0d4322eff7d2997b6b3011",
+      "derived_sha256": "6569599678a2afea4b69ad3b5756f3069d5291117156a6a6ad2f5e7d66581d0e",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/entry_full.rsm": {
+      "source_sha256": "0609b72b4210e4f441412a6d99503aa566318b68e847e93d370f373427c6be42",
+      "derived_sha256": "ff25a2adf9efcdd65cbbef712077f4c991225d0d7c919f2b9fe11a76b231d100",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        },
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/entry_compact.rsm": {
+      "source_sha256": "0f397785470afcb8ec71cf0317acbd2141b0f122503c0abc5a90c4187daade20",
+      "derived_sha256": "4972c12d0f8b232fac05d3c760725496a338d198043d1b641d25300bf4ec4714",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        },
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/entry_tunnel.rsm": {
+      "source_sha256": "2f2bc6c5a992188be0ec55d43d5d17471bee31463fd9231fc5a6985ab84792a1",
+      "derived_sha256": "9b93c73206bc8db4ffe3159869600a6bfea6a45a6ce77da247070339d167b26a",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        },
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/junction_full.rsm": {
+      "source_sha256": "bc19e9e37d1e4efb91afdff3e858aa622cc63cfa31532bfe004015468461ff68",
+      "derived_sha256": "947ef9a0790e500509013c8a8aef585badbf7d766bd632f76bc5f0c7c9b8c04c",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        },
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/junction_compact.rsm": {
+      "source_sha256": "4025bd8b221e25b6061c03c5f12a825230a59302edd720a2e1f27af0974449e9",
+      "derived_sha256": "1e4ce0298b127e3189f0496e2a5c718a909bc4b063609d27b72f6043b6d356e4",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        },
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    },
+    "Rounded/junction_tunnel.rsm": {
+      "source_sha256": "427ef985f3f6c0068095134bcaa6859e0ba3ee2c1402ccf4493aec0657112100",
+      "derived_sha256": "236f526e0bfe4d08d5f5fb5ec09573e354feec2841893b24a6ed8cf7bb2bb5ba",
+      "screens": [
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        },
+        {
+          "original_boundary_points": 16,
+          "refined_boundary_points": 100,
+          "bounds_preserved": true,
+          "original_uvs_preserved": true
+        }
+      ],
+      "non_screen_vertex_rows_and_faces_preserved": true
+    }
+  }
+}

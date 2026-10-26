@@ -1,0 +1,2089 @@
+{
+  "models": 24,
+  "hoods": 90,
+  "source_shape_preserved": true,
+  "models_detail": {
+    "shunting": {
+      "source_sha256": "51f6a1df959cf75065c28b1d0909965ac2c47678800f5cabe52919aceec02d4e",
+      "derived_sha256": "f664b2d815675510d14f944c456bbec9059429e930bc5cf7e87f43ef7eefaaf0",
+      "hoods": [
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_0_Signal0_SolidNorm0",
+          "old_triangles": 40,
+          "source_min": [
+            -0.13425099849700928,
+            0.8396239876747131,
+            0.05000000074505806
+          ],
+          "source_max": [
+            0.13425099849700928,
+            1.0143200159072876,
+            0.40022900700569153
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.00028841426295159845,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Blue",
+          "part": "Body_0_Signal0_SolidNorm0",
+          "old_triangles": 40,
+          "source_min": [
+            -0.13425099849700928,
+            0.6246240139007568,
+            0.05000000074505806
+          ],
+          "source_max": [
+            0.13425099849700928,
+            0.7993209958076477,
+            0.40022900700569153
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0002884143504387935,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "mast": {
+      "source_sha256": "112dcf540597d84eed7f8e5879b85969d1d373bf7a88977c98fe7bd0f19ccad0",
+      "derived_sha256": "6d6788da1f002363fc5abbde55a224bbb0c69173e69947868bd624a128b7eb76",
+      "hoods": [
+        {
+          "lamp": "Yellow",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.708979606628418,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.941659927368164,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207793095226735,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.4221296310424805,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.6548004150390625,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520743686200294,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Red",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.134730339050293,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.367400169372559,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520720084482575,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "entry": {
+      "source_sha256": "b1a07b63df2b49accdd7f633f8ac146f420500aa29390596bdf94ac37957d65b",
+      "derived_sha256": "669ecd29b22abbb1cba5de619c489697e61c1a7fa4416ce6d979374016b642dd",
+      "hoods": [
+        {
+          "lamp": "Yellow2",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.900889873504639,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            6.1335601806640625,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520753667977106,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.614039897918701,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.846710205078125,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520754940206852,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.362299919128418,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.594970226287842,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520754940206852,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.075439929962158,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.308110237121582,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520736862912407,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Red",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            6.7880401611328125,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.020709991455078,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207025723579762,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "exit": {
+      "source_sha256": "13a9ae46b7713e386450f16bfc97c6c7e13ef26ec9dfb5ffa283aab5c971072f",
+      "derived_sha256": "db382246f868bc8e8303bfb5eb8d97eb056cbc3ee07a1bf9128e512c23a0d3dd",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            6.251049995422363,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            6.483719825744629,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520674890350687,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.9641900062561035,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            6.196859836578369,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520670364058937,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.361400127410889,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.594069957733154,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207022911392903,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_0_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.074550151824951,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.307219982147217,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207022911392903,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "exit_mainline": {
+      "source_sha256": "02b1fb1804726a295aacbcf6db857ba64c2ad7c7f6dddeef6a8707bd0b77118a",
+      "derived_sha256": "aeafd8a876b8b57a328aba1b3b86a3d05a1db99ff341b208a06bd972c007909c",
+      "hoods": [
+        {
+          "lamp": "Green2",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.900889873504639,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            6.1335601806640625,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520753667977106,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.614039897918701,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.846710205078125,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520754940206852,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.362299919128418,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.594970226287842,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520754940206852,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.075439929962158,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.308110237121582,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520736862912407,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Red",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            6.7880401611328125,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.020709991455078,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207025723579762,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "exit_small_two_yellows": {
+      "source_sha256": "87fb385b9a85dc5d692a5493facf648e4f196cd0f4acc85b3fc10a9150a828f4",
+      "derived_sha256": "9fc294b1e7ee4fc9dc5921e6559d9bc38149af0bfc85170eec122b4d12de8c7c",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            0.16270999610424042,
+            0.6168286204338074,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.410645991563797,
+            0.7896755933761597,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006671793071887183,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            0.16270999610424042,
+            0.8694006204605103,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.410645991563797,
+            1.0422475337982178,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006669266102327626,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            1.1154274940490723,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            1.2882674932479858,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006673142064313903,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            0.6168286204338074,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            0.7896755933761597,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006671789762312787,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            0.8694006204605103,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            1.0422475337982178,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006669262791472153,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "exit_small": {
+      "source_sha256": "6403cb1e9d143740a6d50555b540b8d551e5ebe77234d91e24e9e311986f25c9",
+      "derived_sha256": "37c4d87dc2324d532cac9850f1ef98542fbbefc88afc04b90fcf9041b3abec35",
+      "hoods": [
+        {
+          "lamp": "Unused",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            0.16270999610424042,
+            0.6168286204338074,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.410645991563797,
+            0.7896755933761597,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006671793071887183,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Red",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            0.16270999610424042,
+            0.8694006204605103,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.410645991563797,
+            1.0422475337982178,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006669266102327626,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            1.1154274940490723,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            1.2882674932479858,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006673142064313903,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            0.6168286204338074,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            0.7896755933761597,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006671789762312787,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            0.8694006204605103,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            1.0422475337982178,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006669262791472153,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "shunting_mast": {
+      "source_sha256": "11aca6fa7cee516589f1d9c0f0d31b0e3ce3a15eea9b8a7a9379a723769af001",
+      "derived_sha256": "ac8212be06e6f307ce19bb45bd98ea594371d2865bd9f2562806cfeaee09855a",
+      "hoods": [
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18978700041770935,
+            5.7099199295043945,
+            0.5010359883308411
+          ],
+          "source_max": [
+            0.2075980007648468,
+            5.942600250244141,
+            1.1806600093841553
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520770929569954,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Blue",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18978700041770935,
+            5.423069953918457,
+            0.5010359883308411
+          ],
+          "source_max": [
+            0.2075980007648468,
+            5.655739784240723,
+            1.1806600093841553
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520683409172863,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "distant": {
+      "source_sha256": "357114cb61e43307ab7cee8fa846734c5c87282bb53e96c2256a7a1de208d2eb",
+      "derived_sha256": "8942b88f87bf195abe8becd750643d459e711f35a29689d3e1a89574ced5edbc",
+      "hoods": [
+        {
+          "lamp": "Yellow",
+          "part": "Body_1_Signal",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23183999955654144,
+            5.4741597175598145,
+            -0.0009999569738283753
+          ],
+          "source_max": [
+            0.23183999955654144,
+            5.725489616394043,
+            0.9991419911384583
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011869556408746114,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_1_Signal",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23183999955654144,
+            5.774159908294678,
+            -0.0009999569738283753
+          ],
+          "source_max": [
+            0.23183999955654144,
+            6.025469779968262,
+            0.9991419911384583
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001187041224186713,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "repeater": {
+      "source_sha256": "3b23a733cb329d0dee8abc55e998f8bf7339a600f0dbf38a6886eb2bc737b9b9",
+      "derived_sha256": "c0447cc53f7268585d0b464edf473513eda25cb349daaa40b2d8c583a7765f2e",
+      "hoods": [
+        {
+          "lamp": "Green",
+          "part": "Body_1_Signal",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23183999955654144,
+            5.774160385131836,
+            -0.0009999279864132404
+          ],
+          "source_max": [
+            0.23183999955654144,
+            6.025469779968262,
+            0.9991419911384583
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.00118703994316772,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "junction": {
+      "source_sha256": "da9e2e2c1f1b4fc207a6f5742b7cf9b91b4294ebe2e098e20dd2c4ada036cfdc",
+      "derived_sha256": "ec4fad1eb9c2e3b618ac1107aa4328d8e0593d78792c2af6141c670baf6badc9",
+      "hoods": [
+        {
+          "lamp": "Yellow2",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.904230117797852,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            6.136899948120117,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035206888293493523,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green2",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.617370128631592,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.850039958953857,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035206850899911126,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            5.329969882965088,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            5.562640190124512,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207409930617366,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.333409786224365,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.566080093383789,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207326755203484,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            7.046559810638428,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            7.279230117797852,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0035207458854499677,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Red",
+          "part": "Body_2_Signal",
+          "old_triangles": 63,
+          "source_min": [
+            -0.19753800332546234,
+            6.75915002822876,
+            0.4999209940433502
+          ],
+          "source_max": [
+            0.1998469978570938,
+            6.991819858551025,
+            1.1795400381088257
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.003520689027711938,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "turntable": {
+      "source_sha256": "919c197c9d5a314e409f462cd80eb1b53f07095598165db1c4124c3e62cdf82d",
+      "derived_sha256": "a588a51c01accbdd402ad8b2c2b225307a29b115733f5c7e3d8a450df28978a0",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            0.616828203201294,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            0.7896751761436462,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006671789762312787,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "Body_0_Signal",
+          "old_triangles": 68,
+          "source_min": [
+            -0.12849000096321106,
+            0.8694002032279968,
+            0.06675560027360916
+          ],
+          "source_max": [
+            0.11944600194692612,
+            1.0422471761703491,
+            0.40095099806785583
+          ],
+          "triangles": 68,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0006669265795222301,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/shunting_mast_full": {
+      "source_sha256": "e08352a33639376aa4aab77a507d76986de93cde25d2bbb095e99b2842c117dc",
+      "derived_sha256": "f64899c58cac29aef732f068a07276d9d704500c1102e281c12cf0b3b3a4a704",
+      "hoods": [
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18979015946388245,
+            5.70992374420166,
+            0.5043099522590637
+          ],
+          "source_max": [
+            0.2075948268175125,
+            5.942585468292236,
+            0.9822359681129456
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024757724866846724,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Blue",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18979015946388245,
+            5.423072814941406,
+            0.5043099522590637
+          ],
+          "source_max": [
+            0.2075948268175125,
+            5.655745029449463,
+            0.9822359681129456
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024757672227511515,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/shunting_mast_compact": {
+      "source_sha256": "b164623b6f96a7244e1407dcebe97fa9012a66b07a0843dfacc9468edf20aec3",
+      "derived_sha256": "4eb6aace53d03f7acc47eb14237f4eca050223973c4f6c1f1a695479439526e3",
+      "hoods": [
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18979015946388245,
+            3.284923553466797,
+            0.5043099522590637
+          ],
+          "source_max": [
+            0.2075948268175125,
+            3.5175857543945312,
+            0.9822359681129456
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024757859099712254,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Blue",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18979015946388245,
+            2.998073101043701,
+            0.5043099522590637
+          ],
+          "source_max": [
+            0.2075948268175125,
+            3.2307450771331787,
+            0.9822359681129456
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024757684023416896,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/shunting_mast_tunnel": {
+      "source_sha256": "577cec223e6b70c7e36b43a15cd463e693f2350203d7fabf410829b84d819b6e",
+      "derived_sha256": "b087d7e76f32acc1e752b2a56f0975c9ceffabfe117f818d8f83c4a6fbead08e",
+      "hoods": [
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18979015946388245,
+            3.284923553466797,
+            0.5043099522590637
+          ],
+          "source_max": [
+            0.2075948268175125,
+            3.5175857543945312,
+            0.9822359681129456
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024757859099712254,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Blue",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.18979015946388245,
+            2.998073101043701,
+            0.5043099522590637
+          ],
+          "source_max": [
+            0.2075948268175125,
+            3.2307450771331787,
+            0.9822359681129456
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024757684023416896,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 0,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/mast_full": {
+      "source_sha256": "8cbf3d06bc73d1c69596df0f3bc8c0bc240f6be2bfaee53a5a4baf6452ab6db9",
+      "derived_sha256": "7e1378af252a26bcf8cbd4956a565ffc166325c7803b96d02428370a65ebf4d1",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            5.131110191345215,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            5.373092174530029,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602784390780353,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            5.4199748039245605,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            5.661957263946533,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624221601573362,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            5.708840370178223,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            5.950822353363037,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160278169662932,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 4,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/mast_compact": {
+      "source_sha256": "b43a71f434793370e245c64066e9129d36ee22e9ea08fbf95c2384fb8987e344",
+      "derived_sha256": "c23cd389097ed2a3748356af351838b6e428237ddf55ffb5204cdebd839369b4",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.7061100006103516,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            2.948092222213745,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602792032877642,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.9949748516082764,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.23695707321167,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624215303767073,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.2838401794433594,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.525822401046753,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602787538066031,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 4,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/mast_tunnel": {
+      "source_sha256": "da71fc7ba327d64a0827ba80b4c4121e9c19696f3a701a4f80e8f974f44e240a",
+      "derived_sha256": "961b7fc6a077e5bf54bbba40267e3e02e10de03abe0d4322eff7d2997b6b3011",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.7061100006103516,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            2.948092222213745,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602792032877642,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.9949748516082764,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.23695707321167,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624215303767073,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.2838401794433594,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.525822401046753,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602787538066031,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 4,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/entry_full": {
+      "source_sha256": "6d9b2441e28323c8eedca7e9b90c47bb939992dce2fea570d32a353c77c17bc1",
+      "derived_sha256": "0609b72b4210e4f441412a6d99503aa566318b68e847e93d370f373427c6be42",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            6.7844319343566895,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            7.026410102844238,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266907239246,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            7.073291778564453,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            7.315269947052002,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624174905971033,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            7.362152099609375,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            7.604130268096924,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266853453375,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.1975414901971817,
+            5.900890350341797,
+            0.5031949877738953
+          ],
+          "source_max": [
+            0.19984349608421326,
+            6.1335601806640625,
+            0.9811210036277771
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.002475855530784287,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.1975414901971817,
+            5.614030361175537,
+            0.5031949877738953
+          ],
+          "source_max": [
+            0.19984349608421326,
+            5.846710205078125,
+            0.9811210036277771
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0024758599412702197,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 4,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/entry_compact": {
+      "source_sha256": "a1c38fe9c085f87254db68396a9d8912d7e62bb387a969e5d9083140522eaf63",
+      "derived_sha256": "0f397785470afcb8ec71cf0317acbd2141b0f122503c0abc5a90c4187daade20",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.5264620780944824,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.768440008163452,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266473842152,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.815321683883667,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.057299613952637,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001162417386179536,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            4.104182243347168,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.346159934997559,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602661450095281,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.1975414901971817,
+            2.6429200172424316,
+            0.5031949877738953
+          ],
+          "source_max": [
+            0.19984349608421326,
+            2.8755898475646973,
+            0.9811210036277771
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.002475855530784287,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.1975414901971817,
+            2.356060266494751,
+            0.5031949877738953
+          ],
+          "source_max": [
+            0.19984349608421326,
+            2.5887398719787598,
+            0.9811210036277771
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.002475858824537287,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 4,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/entry_tunnel": {
+      "source_sha256": "9a205b1256ec3199ebdf22d9b2955e51c3d786d843800b3ac169c9f8b3e133ec",
+      "derived_sha256": "2f2bc6c5a992188be0ec55d43d5d17471bee31463fd9231fc5a6985ab84792a1",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.5264620780944824,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.768440008163452,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266473842152,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.815321683883667,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.057299613952637,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001162417386179536,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            4.104182243347168,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.346159934997559,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602661450095281,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.1975414901971817,
+            2.6429200172424316,
+            0.5031949877738953
+          ],
+          "source_max": [
+            0.19984349608421326,
+            2.8755898475646973,
+            0.9811210036277771
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.002475855530784287,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 63,
+          "source_min": [
+            -0.1975414901971817,
+            2.356060266494751,
+            0.5031949877738953
+          ],
+          "source_max": [
+            0.19984349608421326,
+            2.5887398719787598,
+            0.9811210036277771
+          ],
+          "triangles": 86,
+          "removed_overlapping_triangles": 0,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.002475858824537287,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 4,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/junction_full": {
+      "source_sha256": "fbb5e88a09a2c0ff4bea00d9d3c2aed61ff37b01c2ffcf043b9bf1d45e24fcde",
+      "derived_sha256": "bc19e9e37d1e4efb91afdff3e858aa622cc63cfa31532bfe004015468461ff68",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            6.755540370941162,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            6.997522354125977,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602784390780353,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            7.044404983520508,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            7.2863874435424805,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624374029185354,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            7.33327054977417,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            7.575252532958984,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602781696629296,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            5.326362609863281,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            5.568340301513672,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602661921941199,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green2",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            5.615221977233887,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            5.857199668884277,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624168145958993,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            5.90408182144165,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            6.146059989929199,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266268021622,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 8,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/junction_compact": {
+      "source_sha256": "354fbe301c4ff76044f1c4077b62d003655976e21b8a95de5ed01202e3a35ac7",
+      "derived_sha256": "4025bd8b221e25b6061c03c5f12a825230a59302edd720a2e1f27af0974449e9",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.781630039215088,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.0236124992370605,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602795187651259,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            4.070495128631592,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.312477111816406,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624358156574637,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            4.359360218048096,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.60134220123291,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602789872187057,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.352452278137207,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            2.5944299697875977,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602661037513884,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green2",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.6413118839263916,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            2.8832895755767822,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624170354700457,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.9301717281341553,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.172149658203125,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266232259121,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 8,
+      "non_visor_faces_preserved": true
+    },
+    "Rounded/junction_tunnel": {
+      "source_sha256": "dd68d11e4f91926e9eb7c6125dd6c62c1f4e7462850465cf16f4f00b3cf03ff7",
+      "derived_sha256": "427ef985f3f6c0068095134bcaa6859e0ba3ee2c1402ccf4493aec0657112100",
+      "hoods": [
+        {
+          "lamp": "Red",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            3.781630039215088,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.0236124992370605,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602795187651259,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            4.070495128631592,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.312477111816406,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624358156574637,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            4.359360218048096,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            4.60134220123291,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602789872187057,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "MoonWhite",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.352452278137207,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            2.5944299697875977,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011602661037513884,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Green2",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.6413118839263916,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            2.8832895755767822,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.0011624170354700457,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        },
+        {
+          "lamp": "Yellow2",
+          "part": "RUS original rounded head",
+          "old_triangles": 40,
+          "source_min": [
+            -0.23177050054073334,
+            2.9301717281341553,
+            0.4970140755176544
+          ],
+          "source_max": [
+            0.23190949857234955,
+            3.172149658203125,
+            1.497156023979187
+          ],
+          "triangles": 84,
+          "removed_overlapping_triangles": 20,
+          "closed_manifold": true,
+          "positive_volume_m3": 0.001160266232259121,
+          "original_contour_vertices_preserved": true,
+          "source_bounds_preserved": true
+        }
+      ],
+      "obsolete_visor_strips_removed": 8,
+      "non_visor_faces_preserved": true
+    }
+  }
+}

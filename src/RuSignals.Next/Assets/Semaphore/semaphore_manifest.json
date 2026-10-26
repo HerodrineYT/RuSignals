@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "units": "metres",
+  "front": "+Z",
+  "up": "+Y",
+  "rootAtGround": true,
+  "reconstruction": true,
+  "upperPivot": [
+    0,
+    8.05,
+    0.44
+  ],
+  "lowerPivot": [
+    0,
+    6.77,
+    0.44
+  ],
+  "upperStopAngle": 0,
+  "upperClearAngle": -45,
+  "lowerStopAngle": 90,
+  "lowerClearAngle": -45,
+  "rotationAxisUnity": "+Z",
+  "openSeconds": 1.5,
+  "closeSeconds": 1.17,
+  "parts": [
+    {
+      "key": "semaphore_static",
+      "mesh": "MastAndMechanism",
+      "parent": "SovietSemaphore",
+      "pivot": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "triangles": 8308,
+      "vertices": 4848,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_lowerfittings",
+      "mesh": "lowerfittings",
+      "parent": "SovietSemaphore",
+      "pivot": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "triangles": 1688,
+      "vertices": 880,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_upper",
+      "mesh": "UpperArm",
+      "parent": "UpperArmPivot",
+      "pivot": [
+        -0.0,
+        8.050000190734863,
+        0.4399999976158142
+      ],
+      "triangles": 616,
+      "vertices": 328,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_lower",
+      "mesh": "LowerArm",
+      "parent": "LowerArmPivot",
+      "pivot": [
+        -0.0,
+        6.769999980926514,
+        0.4399999976158142
+      ],
+      "triangles": 616,
+      "vertices": 328,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_upperselector",
+      "mesh": "upperselector",
+      "parent": "UpperSelectorPivot",
+      "pivot": [
+        -0.23999999463558197,
+        7.53000020980835,
+        0.25999999046325684
+      ],
+      "triangles": 12,
+      "vertices": 8,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_lowerselector",
+      "mesh": "lowerselector",
+      "parent": "LowerSelectorPivot",
+      "pivot": [
+        -0.23999999463558197,
+        6.25,
+        0.25999999046325684
+      ],
+      "triangles": 12,
+      "vertices": 8,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_UpperRedLens",
+      "mesh": "UpperRedLens",
+      "parent": "SovietSemaphore",
+      "pivot": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "triangles": 156,
+      "vertices": 80,
+      "material": "Upper red aspect"
+    },
+    {
+      "key": "semaphore_UpperGreenLens",
+      "mesh": "UpperGreenLens",
+      "parent": "SovietSemaphore",
+      "pivot": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "triangles": 156,
+      "vertices": 80,
+      "material": "Upper green aspect"
+    },
+    {
+      "key": "semaphore_LowerYellowLens",
+      "mesh": "LowerYellowLens",
+      "parent": "SovietSemaphore",
+      "pivot": [
+        -0.0,
+        0.0,
+        -0.0
+      ],
+      "triangles": 156,
+      "vertices": 80,
+      "material": "Lower yellow aspect"
+    },
+    {
+      "key": "semaphore_lever",
+      "mesh": "lever",
+      "parent": "DriveLeverPivot",
+      "pivot": [
+        0.10000000149011612,
+        0.9700000286102295,
+        -0.17000000178813934
+      ],
+      "triangles": 56,
+      "vertices": 32,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_upperrod",
+      "mesh": "upperrod",
+      "parent": "UpperPullRod",
+      "pivot": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "triangles": 84,
+      "vertices": 48,
+      "material": "Painted steel - aged enamel"
+    },
+    {
+      "key": "semaphore_lowerrod",
+      "mesh": "lowerrod",
+      "parent": "LowerPullRod",
+      "pivot": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "triangles": 84,
+      "vertices": 48,
+      "material": "Painted steel - aged enamel"
+    }
+  ],
+  "states": {
+    "Stop": [
+      0,
+      90
+    ],
+    "Main": [
+      -45,
+      90
+    ],
+    "Diverging": [
+      -45,
+      -45
+    ]
+  },
+  "triangleCount": 11944,
+  "revision": "RUS Signals 1.7.3: forward wing plane and extended spindles; planar glass UVs",
+  "wingDepthOffset": 0.25
+}

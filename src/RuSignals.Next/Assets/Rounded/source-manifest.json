@@ -1,0 +1,136 @@
+{
+  "shunting_mast": {
+    "parts": [
+      {
+        "source": "T_Signal_Head_WB_speciale.s",
+        "sha256": "26f96c4a1c0624f68f64849c6ef906bd7a7a03e294dca402da8381f8aa8b2d8a",
+        "y_scale": 0.9999669218590564,
+        "lenses": [
+          "MoonWhite",
+          "Blue"
+        ]
+      }
+    ],
+    "texture": "t_signal.png",
+    "lowering": 2.4250000000000003,
+    "triangles": 530,
+    "tunnel_triangles": 246,
+    "min": [
+      -0.41856116923600434,
+      5.093543659117985,
+      -0.11150100998878476
+    ],
+    "max": [
+      0.43978284922331573,
+      6.2533053477311995,
+      0.9822359663963318
+    ],
+    "source_triangle_order_verified": true
+  },
+  "mast": {
+    "parts": [
+      {
+        "source": "T_Signal_Head_YGR.s",
+        "sha256": "62bc2f7240a56528c38f43834ed6fdfa82a0d83f3f098c7670637c4226ec34a6",
+        "y_scale": 0.9628836313883469,
+        "lenses": [
+          "Yellow",
+          "Green",
+          "Red"
+        ]
+      }
+    ],
+    "texture": "t_signal.png",
+    "lowering": 2.4250000000000003,
+    "triangles": 556,
+    "tunnel_triangles": 272,
+    "min": [
+      -0.42910251022840384,
+      4.814619833614718,
+      -0.1219859781265259
+    ],
+    "max": [
+      0.4292415082309162,
+      6.220237133921122,
+      1.4971560177803038
+    ],
+    "source_triangle_order_verified": true
+  },
+  "entry": {
+    "parts": [
+      {
+        "source": "T_Signal_Head_YGR.s",
+        "sha256": "62bc2f7240a56528c38f43834ed6fdfa82a0d83f3f098c7670637c4226ec34a6",
+        "y_scale": 0.9628669420878098,
+        "lenses": [
+          "Yellow",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "source": "T_Signal_Head_WB_speciale.s",
+        "sha256": "26f96c4a1c0624f68f64849c6ef906bd7a7a03e294dca402da8381f8aa8b2d8a",
+        "y_scale": 0.9999997698016186,
+        "lenses": [
+          "Yellow2",
+          "MoonWhite"
+        ]
+      }
+    ],
+    "texture": "t_signal.png",
+    "lowering": 3.257970142364502,
+    "triangles": 1086,
+    "tunnel_triangles": 518,
+    "min": [
+      -0.42910251022840384,
+      5.284490155925592,
+      -0.1219859781265259
+    ],
+    "max": [
+      0.43203150823091624,
+      7.8735402597804605,
+      1.4971560177803038
+    ],
+    "source_triangle_order_verified": true
+  },
+  "junction": {
+    "parts": [
+      {
+        "source": "T_Signal_Head_YGR.s",
+        "sha256": "62bc2f7240a56528c38f43834ed6fdfa82a0d83f3f098c7670637c4226ec34a6",
+        "y_scale": 0.9628836313883469,
+        "lenses": [
+          "Yellow",
+          "Green",
+          "Red"
+        ]
+      },
+      {
+        "source": "T_Signal_Head_YGR.s",
+        "sha256": "62bc2f7240a56528c38f43834ed6fdfa82a0d83f3f098c7670637c4226ec34a6",
+        "y_scale": 0.9628661473592128,
+        "lenses": [
+          "Yellow2",
+          "Green2",
+          "MoonWhite"
+        ]
+      }
+    ],
+    "texture": "t_signal.png",
+    "lowering": 2.973910140991211,
+    "triangles": 1112,
+    "tunnel_triangles": 544,
+    "min": [
+      -0.42910251022840384,
+      5.009877862913678,
+      -0.1219859781265259
+    ],
+    "max": [
+      0.4292415082309162,
+      7.8446673135170695,
+      1.4971560177803038
+    ],
+    "source_triangle_order_verified": true
+  }
+}

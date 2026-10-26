@@ -1,0 +1,81 @@
+{
+  "version": "4.2.5",
+  "mutations": 12,
+  "all_detected": true,
+  "active_sources_modified": false,
+  "scope": "Twelve independent code mutations in an isolated copy, each detected by its named regression. Model changes cancelled by user; all model and texture bytes match 4.2.4.",
+  "results": [
+    {
+      "mutation": "approach padding",
+      "detected": true,
+      "failing_scenario": "Through / 1 approach 4m",
+      "source": "src/RuSignals.Next/Runtime/BlockQueries.cs"
+    },
+    {
+      "mutation": "approach reintroduced as turnout extra",
+      "detected": true,
+      "failing_scenario": "Endpoint entry excludes its approach",
+      "source": "src/RuSignals.Next/Native/NativeSdk.cs"
+    },
+    {
+      "mutation": "common approach behind outgoing leg",
+      "detected": true,
+      "failing_scenario": "Mast on outgoing turnout leg",
+      "source": "src/RuSignals.Next/Runtime/BlockQueries.cs"
+    },
+    {
+      "mutation": "crossing before owning mast",
+      "detected": true,
+      "failing_scenario": "Crossing before owning mast",
+      "source": "src/RuSignals.Next/Runtime/BlockCrossings.cs"
+    },
+    {
+      "mutation": "crossing cache after same-map rebuild",
+      "detected": true,
+      "failing_scenario": "Rebuilt forward crossing retains",
+      "source": "src/RuSignals.Next/Runtime/BlockCrossings.cs"
+    },
+    {
+      "mutation": "unknown bogie coordinate",
+      "detected": true,
+      "failing_scenario": "unknown bogie coordinate fails closed",
+      "source": "src/RuSignals.Next/Runtime/BlockQueries.cs"
+    },
+    {
+      "mutation": "retreated train locks clear route",
+      "detected": true,
+      "failing_scenario": "fully reversing out reopens without emptying physical corridor",
+      "source": "src/RuSignals.Next/Runtime/CorridorTraffic.cs"
+    },
+    {
+      "mutation": "historical conflict cannot clear",
+      "detected": true,
+      "failing_scenario": "forward movement clears a past reversal",
+      "source": "src/RuSignals.Next/Runtime/CorridorTraffic.cs"
+    },
+    {
+      "mutation": "normal reversal treated as conflict",
+      "detected": true,
+      "failing_scenario": "consistent reverse motion does not latch the free following block",
+      "source": "src/RuSignals.Next/Runtime/CorridorTraffic.cs"
+    },
+    {
+      "mutation": "entry wrongly locked by approach reservation",
+      "detected": true,
+      "failing_scenario": "empty forward route opens despite opposite authority wholly behind mast",
+      "source": "src/RuSignals.Next/Runtime/CorridorTraffic.cs"
+    },
+    {
+      "mutation": "saved reservation replaced by live route",
+      "detected": true,
+      "failing_scenario": "changing owner's live route cannot release saved protection ahead",
+      "source": "src/RuSignals.Next/Native/IntervalReservations.cs"
+    },
+    {
+      "mutation": "entry exception leaks into ordinary signals",
+      "detected": true,
+      "failing_scenario": "Through global corridor direction remains restrictive",
+      "source": "src/RuSignals.Next/Runtime/CorridorTraffic.cs"
+    }
+  ]
+}

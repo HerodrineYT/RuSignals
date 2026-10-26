@@ -1,0 +1,112 @@
+{
+    "tints_per_colour": 96,
+    "legacy_tints_per_colour": 32,
+    "added_tints_per_colour": 64,
+    "legacy_colours_checked": 128,
+    "colours_only": true,
+    "uniform_optics_per_mast": true,
+    "legacy_rgba_exact": true,
+    "yellow_family_retuned": true,
+    "references": [
+        {
+            "label": "reference one ruby red",
+            "reference_hue_degrees": 354.1000061035156,
+            "closest_hue_error_degrees": 0.142242431640625,
+            "closest_palette_colour": {
+                "r": 1.0,
+                "g": 0.01219047699123621,
+                "b": 0.11166665703058243,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "reference two raspberry red",
+            "reference_hue_degrees": 341.79998779296877,
+            "closest_hue_error_degrees": 0.020355224609375,
+            "closest_palette_colour": {
+                "r": 1.0,
+                "g": 0.0059523810632526878,
+                "b": 0.30714285373687746,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "reference two crimson edge",
+            "reference_hue_degrees": 333.20001220703127,
+            "closest_hue_error_degrees": 0.0341796875,
+            "closest_palette_colour": {
+                "r": 1.0,
+                "g": 0.004999999888241291,
+                "b": 0.44999998807907107,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "reference one sea green",
+            "reference_hue_degrees": 158.3000030517578,
+            "closest_hue_error_degrees": 0.281005859375,
+            "closest_palette_colour": {
+                "r": 0.00800000037997961,
+                "g": 1.0,
+                "b": 0.6458730101585388,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "reference two turquoise green",
+            "reference_hue_degrees": 165.10000610351563,
+            "closest_hue_error_degrees": 0.0315399169921875,
+            "closest_palette_colour": {
+                "r": 0.008809525519609452,
+                "g": 1.0,
+                "b": 0.753333330154419,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "reference two deep blue",
+            "reference_hue_degrees": 232.1999969482422,
+            "closest_hue_error_degrees": 0.22314453125,
+            "closest_palette_colour": {
+                "r": 0.0039523812010884289,
+                "g": 0.1371428519487381,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "blue-violet extension",
+            "reference_hue_degrees": 245.0,
+            "closest_hue_error_degrees": 0.00897216796875,
+            "closest_palette_colour": {
+                "r": 0.08999999612569809,
+                "g": 0.00711111119017005,
+                "b": 1.0,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "retuned yellow lower boundary",
+            "reference_hue_degrees": 37.20000076293945,
+            "closest_hue_error_degrees": 0.068603515625,
+            "closest_palette_colour": {
+                "r": 1.0,
+                "g": 0.6200000047683716,
+                "b": 0.003000000026077032,
+                "a": 1.0
+            }
+        },
+        {
+            "label": "reference two golden yellow",
+            "reference_hue_degrees": 50.70000076293945,
+            "closest_hue_error_degrees": 0.04571533203125,
+            "closest_palette_colour": {
+                "r": 1.0,
+                "g": 0.8456842303276062,
+                "b": 0.00928421039134264,
+                "a": 1.0
+            }
+        }
+    ],
+    "scope": "Actual release palette in Unity; 128 non-yellow original RGBA values compared bit for bit with released 3.0.11; yellow family intentionally retuned and its lower boundary selected for distinction from red. New reference hues sampled from supplied images; bloom, white cores, ring patterns and structures not taken from references."
+}

@@ -1,0 +1,12 @@
+{
+  "Id": "ru.signals",
+  "Author": "Herodrine_",
+  "DisplayName": "RuSignals",
+  "Version": "4.3.4",
+  "ManagerVersion": "0.27.3",
+  "AssemblyName": "RuSignals.dll",
+  "EntryMethod": "RuSignals.Mod.Load",
+  "MultiplayerCompatibility": "All",
+  "Requirements": ["DVSignals"],
+  "LoadAfter": ["DVSignals", "RailwaySafetyGadgets", "AdvancedDispatcherSystem"]
+}

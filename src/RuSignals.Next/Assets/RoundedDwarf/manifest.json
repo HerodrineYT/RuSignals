@@ -1,0 +1,154 @@
+{
+  "source_sha256": "ff83a10b2e2a0e90f491e8283c78aa07504c2a2bb241223d9d2f0908c443de88",
+  "derived_sha256": "e82073bde6fb4e853001cf7ddc61217e2dff190f9e73fab333f1ef32d39286b7",
+  "hoods": [
+    {
+      "lamp": "Yellow",
+      "part": "Body_0_Signal",
+      "old_triangles": 40,
+      "source_min": [
+        -0.13203707337379456,
+        1.0546200275421143,
+        0.05712689831852913
+      ],
+      "source_max": [
+        0.13646423816680908,
+        1.2293200492858887,
+        0.4073559045791626
+      ],
+      "triangles": 84,
+      "removed_overlapping_triangles": 20,
+      "closed_manifold": true,
+      "positive_volume_m3": 0.00028840261910268047,
+      "original_contour_vertices_preserved": true,
+      "source_bounds_preserved": true
+    },
+    {
+      "lamp": "Green",
+      "part": "Body_0_Signal",
+      "old_triangles": 40,
+      "source_min": [
+        -0.13203707337379456,
+        0.8396239876747131,
+        0.05712689831852913
+      ],
+      "source_max": [
+        0.13646423816680908,
+        1.0143200159072876,
+        0.4073559045791626
+      ],
+      "triangles": 84,
+      "removed_overlapping_triangles": 20,
+      "closed_manifold": true,
+      "positive_volume_m3": 0.0002883993796129486,
+      "original_contour_vertices_preserved": true,
+      "source_bounds_preserved": true
+    },
+    {
+      "lamp": "Yellow2",
+      "part": "Body_0_Signal",
+      "old_triangles": 40,
+      "source_min": [
+        -0.13203707337379456,
+        0.6246240139007568,
+        0.05712689831852913
+      ],
+      "source_max": [
+        0.13646423816680908,
+        0.7993209958076477,
+        0.4073559045791626
+      ],
+      "triangles": 84,
+      "removed_overlapping_triangles": 20,
+      "closed_manifold": true,
+      "positive_volume_m3": 0.0002883994671473486,
+      "original_contour_vertices_preserved": true,
+      "source_bounds_preserved": true
+    },
+    {
+      "lamp": "MoonWhite",
+      "part": "Body_0_Signal",
+      "old_triangles": 40,
+      "source_min": [
+        0.14796364307403564,
+        0.8396239876747131,
+        0.05712689831852913
+      ],
+      "source_max": [
+        0.4164649546146393,
+        1.0143200159072876,
+        0.4073559045791626
+      ],
+      "triangles": 84,
+      "removed_overlapping_triangles": 20,
+      "closed_manifold": true,
+      "positive_volume_m3": 0.0002883993697917567,
+      "original_contour_vertices_preserved": true,
+      "source_bounds_preserved": true
+    },
+    {
+      "lamp": "Red",
+      "part": "Body_0_Signal",
+      "old_triangles": 40,
+      "source_min": [
+        0.14796364307403564,
+        0.6246240139007568,
+        0.05712689831852913
+      ],
+      "source_max": [
+        0.4164649546146393,
+        0.7993209958076477,
+        0.4073559045791626
+      ],
+      "triangles": 84,
+      "removed_overlapping_triangles": 20,
+      "closed_manifold": true,
+      "positive_volume_m3": 0.00028839945733258337,
+      "original_contour_vertices_preserved": true,
+      "source_bounds_preserved": true
+    }
+  ],
+  "obsolete_visor_strips_removed": 0,
+  "non_visor_faces_preserved": true,
+  "source": "T_Signal_Small_YGY_WR.s",
+  "source_shape_sha256": "d6f07641fdba7622f1d9792950ccb45b71721ebb60e6f3a6a5842196ab7cf688",
+  "atlas": "t_signal.png",
+  "complete_original_model": true,
+  "source_scale": 1,
+  "translation": [
+    0.14221394062042236,
+    6.7752701227163925e-09,
+    0.007126897573471069
+  ],
+  "lens_centres": {
+    "Yellow": [
+      0.0022139400243759155,
+      1.102460033516298,
+      0.07448979467153549
+    ],
+    "Green": [
+      0.0022139400243759155,
+      0.8874600001376969,
+      0.07448979467153549
+    ],
+    "MoonWhite": [
+      0.2822139412164688,
+      0.8874600001376969,
+      0.07448979467153549
+    ],
+    "Yellow2": [
+      0.0022139400243759155,
+      0.6724600263637406,
+      0.07448979467153549
+    ],
+    "Red": [
+      0.2822139412164688,
+      0.6724600263637406,
+      0.07448979467153549
+    ]
+  },
+  "source_triangle_order_verified": true,
+  "source_housings_and_fixings_preserved": true,
+  "square_profile_preserved": true,
+  "foundation_geometry_preserved": true
+}

@@ -1,0 +1,91 @@
+{
+    "version": "4.3.4",
+    "dll_sha256": "18ccd862549afb43d4b86ba4b853a552fea27eff5a76aee27ba2c063a0b58bbe",
+    "reference_version": "3.0.8",
+    "reference_dll_sha256": "5de73a9c6a18da1a969f6c7ad47e085de9e54b0fb6662060caa8e03e805a1337",
+    "unity": "2019.4.40f1",
+    "scope": "Real SDK fields and Unity Mono; synthetic 256/1024 groups, two lights per group, no game map or FPS. -1 allocated_bytes means runtime counter unavailable.",
+    "live_collection_replacement": true,
+    "light_state_matches_reference": true,
+    "position_changes_preserved": true,
+    "game_fps_measured": false,
+    "lighting_scenarios": 64,
+    "collection_reference": [
+        {
+            "name": "ManualOccupancy",
+            "iterations": 100000,
+            "median_ms": 48.7487,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "Reservations",
+            "iterations": 100000,
+            "median_ms": 49.6132,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "ReservationTracks",
+            "iterations": 100000,
+            "median_ms": 49.8329,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "Timers",
+            "iterations": 100000,
+            "median_ms": 50.5073,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "Times",
+            "iterations": 100000,
+            "median_ms": 55.4262,
+            "allocated_bytes": -1
+        }
+    ],
+    "collection_current": [
+        {
+            "name": "ManualOccupancy",
+            "iterations": 100000,
+            "median_ms": 1.7675,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "Reservations",
+            "iterations": 100000,
+            "median_ms": 1.7776,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "ReservationTracks",
+            "iterations": 100000,
+            "median_ms": 1.8509,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "Timers",
+            "iterations": 100000,
+            "median_ms": 1.8076,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "Times",
+            "iterations": 100000,
+            "median_ms": 2.0599000000000005,
+            "allocated_bytes": -1
+        }
+    ],
+    "lighting": [
+        {
+            "name": "spill selection 256",
+            "iterations": 200,
+            "median_ms": 15.4428,
+            "allocated_bytes": -1
+        },
+        {
+            "name": "spill selection 1024",
+            "iterations": 200,
+            "median_ms": 57.083200000000008,
+            "allocated_bytes": -1
+        }
+    ]
+}

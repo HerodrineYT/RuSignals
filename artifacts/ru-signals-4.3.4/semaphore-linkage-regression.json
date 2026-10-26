@@ -1,0 +1,25 @@
+{
+  "baseline_version": "4.3.2",
+  "current_version": "4.3.3",
+  "baseline_floating_fittings": 14,
+  "current_floating_fittings": 0,
+  "connected_untouched_guide_rails": 4,
+  "green_profiles": {
+    "main": {
+      "native_checks": 10664,
+      "fixed_colour_poses": 5184,
+      "failures": 0
+    },
+    "rsg-legacy": {
+      "native_checks": 10655,
+      "fixed_colour_poses": 5184,
+      "failures": 0
+    },
+    "power-current": {
+      "native_checks": 10605,
+      "fixed_colour_poses": 5184,
+      "failures": 0
+    }
+  },
+  "scope": "Actual oriented triangles and closed-solid contact paths connect every retained/moved/replacement fitting and all4 lantern guide rails to actual mast angles; no moving rods used as anchors. Full native kinematic checks retained."
+}

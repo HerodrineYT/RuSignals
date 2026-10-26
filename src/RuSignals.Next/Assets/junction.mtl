@@ -1,0 +1,47 @@
+newmtl part0
+Kd 0.508 0.3 0.112
+Ks 0.35 0.35 0.35
+Ns 90
+map_Kd -s 5.72158595 5.72160489 1 -o -0.0219553845 -4.70494435 0 lens_glass_albedo.png
+
+newmtl part1
+Kd 0.112 0.508 0.164
+Ks 0.35 0.35 0.35
+Ns 90
+map_Kd -s 5.72158595 5.72160489 1 -o -0.0219553845 -4.70494435 0 lens_glass_albedo.png
+
+newmtl part2
+Kd 0.508 0.116 0.112
+Ks 0.35 0.35 0.35
+Ns 90
+map_Kd -s 5.72158595 5.72160489 1 -o -0.0219553845 -4.70494435 0 lens_glass_albedo.png
+
+newmtl part3
+Kd 0.508 0.3 0.112
+Ks 0.35 0.35 0.35
+Ns 90
+map_Kd -s 5.72158595 5.72160489 1 -o -0.0219553845 -4.70494435 0 lens_glass_albedo.png
+
+newmtl part4
+Kd 0.112 0.508 0.164
+Ks 0.35 0.35 0.35
+Ns 90
+map_Kd -s 5.72158595 5.72160489 1 -o -0.0219553845 -4.70494435 0 lens_glass_albedo.png
+
+newmtl part5
+Kd 0.428 0.46 0.508
+Ks 0.35 0.35 0.35
+Ns 90
+map_Kd -s 5.72158595 5.72160489 1 -o -0.0219553845 -4.70494435 0 lens_glass_albedo.png
+
+newmtl part6
+Kd 1 1 1
+map_Kd t_signalfooting.png
+
+newmtl part7
+Kd 1 1 1
+map_Kd t_signalfooting.png
+
+newmtl part8
+Kd 1 1 1
+map_Kd t_signal_new.png

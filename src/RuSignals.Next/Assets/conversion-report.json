@@ -1,0 +1,674 @@
+{
+  "version": "1.4.0",
+  "models": {
+    "shunting": {
+      "source": "D:\\Codex Projects\\\u0434\u0432 2\\work\\ru-signals\\provided-small\\T_Signal_Small_GR.obj",
+      "sha256": "e5fffdad2084b574c0d2ec7825311cc6a7a92bf0bdcbfa44abef3d09bea6d780",
+      "ground_offset": -3.441691402807765e-17,
+      "placement_offset_y": -0.3,
+      "parts": 4,
+      "vertices": 1242,
+      "triangles": 414,
+      "min": [
+        -0.1550000011920929,
+        0.0,
+        -0.4000000059604644
+      ],
+      "max": [
+        0.1550000011920929,
+        1.0143200159072876,
+        0.40022900700569175
+      ],
+      "lenses": [
+        {
+          "name": "MoonWhite",
+          "position": [
+            0.0,
+            0.88746,
+            0.08736000000000001
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Blue",
+          "position": [
+            0.0,
+            0.67246,
+            0.08736000000000001
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "mast": {
+      "source": "T_Signal_Head_YGR-new.s",
+      "sha256": "2ed4907359c07d46569c4b1e24ca616553b60d3f87500bd2c0753bd2559303cb",
+      "ground_offset": 1.5995299816131592,
+      "placement_offset_y": -0.8,
+      "parts": 6,
+      "vertices": 1232,
+      "triangles": 771,
+      "min": [
+        -0.2808850109577179,
+        0.0,
+        -0.45000000516580224
+      ],
+      "max": [
+        0.2808850109577179,
+        6.375000238418579,
+        1.1795400381088257
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            7e-05,
+            5.80639,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            7e-05,
+            5.51607,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            7e-05,
+            5.22866,
+            0.53708
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "entry": {
+      "source": "T_Signal_Head_YGR_YW-new.s",
+      "sha256": "b39f5c80501fb2066cd62659d642cb22e6c4b33360b0bebe14ff4ccc3bca9fe6",
+      "ground_offset": -4.076929981999334e-16,
+      "placement_offset_y": -0.8,
+      "parts": 8,
+      "vertices": 1923,
+      "triangles": 1177,
+      "min": [
+        -0.2808850109577179,
+        0.0,
+        -0.800000011920929
+      ],
+      "max": [
+        0.2808850109577179,
+        7.974999904632568,
+        1.1795400381088257
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            7e-05,
+            7.4597,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            7e-05,
+            7.16938,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            7e-05,
+            6.88198,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Yellow2",
+          "position": [
+            7e-05,
+            5.9983,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "MoonWhite",
+          "position": [
+            7e-05,
+            5.70797,
+            0.53708
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "exit": {
+      "source": "T_Signal_Head_YG_RW-new.s",
+      "sha256": "f4cc827f10e586cedee3c9b58b8dc437085e1692325747bbe4c066489d32f61c",
+      "ground_offset": -4.076929981999334e-16,
+      "placement_offset_y": -0.8,
+      "parts": 7,
+      "vertices": 1676,
+      "triangles": 1056,
+      "min": [
+        -0.2808850109577179,
+        0.0,
+        -0.800000011920929
+      ],
+      "max": [
+        0.2808850109577179,
+        7.974999904632568,
+        1.1795400381088257
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            7e-05,
+            7.45881,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            7e-05,
+            7.16848,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            7e-05,
+            6.34845,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "MoonWhite",
+          "position": [
+            7e-05,
+            6.05813,
+            0.53708
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "exit_mainline": {
+      "source": "T_Signal_Head_YGR_GW-new.s",
+      "sha256": "b39f5c80501fb2066cd62659d642cb22e6c4b33360b0bebe14ff4ccc3bca9fe6",
+      "ground_offset": -4.076929981999334e-16,
+      "placement_offset_y": -0.8,
+      "parts": 8,
+      "vertices": 1923,
+      "triangles": 1177,
+      "min": [
+        -0.2808850109577179,
+        0.0,
+        -0.800000011920929
+      ],
+      "max": [
+        0.2808850109577179,
+        7.974999904632568,
+        1.1795400381088257
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            7e-05,
+            7.4597,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            7e-05,
+            7.16938,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            7e-05,
+            6.88198,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green2",
+          "position": [
+            7e-05,
+            5.9983,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "MoonWhite",
+          "position": [
+            7e-05,
+            5.70797,
+            0.53708
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "exit_small_two_yellows": {
+      "source": "T_Signal_Small_YGY_WR-new.s",
+      "sha256": "ecf796a5e96e89afbd4cb027f16296cf4b889b7a18dbd2855cecf8dced8ab8cd",
+      "ground_offset": 0.0005024370038881898,
+      "placement_offset_y": -0.3,
+      "parts": 6,
+      "vertices": 2513,
+      "triangles": 1672,
+      "min": [
+        -0.16091400384902954,
+        0.0,
+        -0.4212130010128021
+      ],
+      "max": [
+        0.4390850067138672,
+        1.2882675233995542,
+        0.40095099806785583
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            -0.00339,
+            1.16787,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            -0.00339,
+            0.92184,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "MoonWhite",
+          "position": [
+            0.28781,
+            0.92184,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Yellow2",
+          "position": [
+            -0.00339,
+            0.66993,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            0.28781,
+            0.66993,
+            0.09449
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "exit_small": {
+      "source": "T_Signal_Small_YGW_Rx-new.s",
+      "sha256": "ecf796a5e96e89afbd4cb027f16296cf4b889b7a18dbd2855cecf8dced8ab8cd",
+      "ground_offset": 0.0005024370038881898,
+      "placement_offset_y": -0.3,
+      "parts": 6,
+      "vertices": 2513,
+      "triangles": 1672,
+      "min": [
+        -0.16091400384902954,
+        0.0,
+        -0.4212130010128021
+      ],
+      "max": [
+        0.4390850067138672,
+        1.2882675233995542,
+        0.40095099806785583
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            -0.00339,
+            1.16787,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            -0.00339,
+            0.92184,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            0.28781,
+            0.92184,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "MoonWhite",
+          "position": [
+            -0.00339,
+            0.66993,
+            0.09449
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "shunting_mast": {
+      "source": "T_Signal_Head_WB-new.s",
+      "sha256": "529a769b65d8110c91b9d83742381dd7689b11de092d8de85b44309ae97a96ac",
+      "ground_offset": 1.5995299816131592,
+      "placement_offset_y": -0.8,
+      "parts": 5,
+      "vertices": 985,
+      "triangles": 650,
+      "min": [
+        -0.2731330096721649,
+        0.0,
+        -0.45000000516580224
+      ],
+      "max": [
+        0.2886359989643097,
+        6.375000238418579,
+        1.1806600093841553
+      ],
+      "lenses": [
+        {
+          "name": "MoonWhite",
+          "position": [
+            0.00782,
+            5.80733,
+            0.53813
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Blue",
+          "position": [
+            0.00782,
+            5.51701,
+            0.5382
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "distant": {
+      "source": "T_Signal_Head_YG.s",
+      "sha256": "6ffbd4d9c4042e0714385fd9c1a7397a5de5a6176e19ee3e6708bc152311b8f1",
+      "ground_offset": 1.5995300010379587,
+      "placement_offset_y": -0.8,
+      "parts": 8,
+      "vertices": 919,
+      "triangles": 772,
+      "min": [
+        -0.42917200922966003,
+        0.0,
+        -0.949999990264641
+      ],
+      "max": [
+        0.42917200922966003,
+        6.375469923019409,
+        0.9991419911384583
+      ],
+      "lenses": [
+        {
+          "name": "Green",
+          "position": [
+            0.0,
+            5.87547,
+            0.039
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Yellow",
+          "position": [
+            0.0,
+            5.57547,
+            0.039
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "repeater": {
+      "source": "T_Signal_Head_G.s",
+      "sha256": "0c7b2d667c305e7d12442881036f43af99e865b0bedbcb8e2fcf55be650025a4",
+      "ground_offset": 1.5995299816131592,
+      "placement_offset_y": -0.8,
+      "parts": 7,
+      "vertices": 681,
+      "triangles": 568,
+      "min": [
+        -0.7071059942245483,
+        0.0,
+        -0.949999988079071
+      ],
+      "max": [
+        0.7071070075035095,
+        6.582579851150513,
+        0.9991419911384583
+      ],
+      "lenses": [
+        {
+          "name": "Green",
+          "position": [
+            0.0,
+            5.87547,
+            0.039
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "junction": {
+      "source": "T_Signal_Head_YGR_YGW-new.s",
+      "sha256": "2c71bfb9023e60add4335895c952e61800ba40e51366011143d1e6d9aebdc384",
+      "ground_offset": -4.076929981999334e-16,
+      "placement_offset_y": -0.8,
+      "parts": 9,
+      "vertices": 2169,
+      "triangles": 1298,
+      "min": [
+        -0.2808850109577179,
+        0.0,
+        -0.800000011920929
+      ],
+      "max": [
+        0.2808850109577179,
+        7.974999904632568,
+        1.1795400381088257
+      ],
+      "lenses": [
+        {
+          "name": "Yellow",
+          "position": [
+            7e-05,
+            7.43082,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green",
+          "position": [
+            7e-05,
+            7.14049,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            7e-05,
+            6.85309,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Yellow2",
+          "position": [
+            7e-05,
+            6.00163,
+            0.53701
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Green2",
+          "position": [
+            7e-05,
+            5.71131,
+            0.53708
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "MoonWhite",
+          "position": [
+            7e-05,
+            5.42391,
+            0.53708
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    },
+    "turntable": {
+      "source": "T_Signal_Small_WR-new.s",
+      "sha256": "54b30a22920817fc35a96fba5b2a7ce7ee4c3736176d4802f3a8e99f3b5aa35e",
+      "ground_offset": 0.000502825016155839,
+      "placement_offset_y": -0.3,
+      "parts": 3,
+      "vertices": 1091,
+      "triangles": 738,
+      "min": [
+        -0.1550000011920929,
+        0.0,
+        -0.40095099806785583
+      ],
+      "max": [
+        0.1550000011920929,
+        1.0422471759375185,
+        0.40095099806785583
+      ],
+      "lenses": [
+        {
+          "name": "MoonWhite",
+          "position": [
+            -0.00339,
+            0.92184,
+            0.09449
+          ],
+          "triangles": 16
+        },
+        {
+          "name": "Red",
+          "position": [
+            -0.00339,
+            0.66993,
+            0.09449
+          ],
+          "triangles": 16
+        }
+      ],
+      "source_triangle_order_verified": true
+    }
+  },
+  "textures": {
+    "t_signal.png": {
+      "source": "D:\\ru\\ROUTES\\TestRoute_RUS\\TEXTURES\\t_signal.ace",
+      "sha256": "6387724596ff3217c4f707b2e3a73ca7c1c07c0828f42e83447b69879ecce32f",
+      "width": 1024,
+      "height": 1024
+    },
+    "t_signal_new.png": {
+      "source": "D:\\ru\\ROUTES\\TestRoute_RUS\\TEXTURES\\t_signal_new.ace",
+      "sha256": "2debe7ba96b8e8d16c8e1b1d85d33a532ef2f5637a6029e11c92414259171200",
+      "width": 1024,
+      "height": 1024
+    },
+    "t_signalfooting.png": {
+      "source": "D:\\ru\\ROUTES\\TestRoute_RUS\\TEXTURES\\t_signalfooting.ace",
+      "sha256": "40648e59d2cf6eb168453ab5c6fb4bd3bc11aeb7530c7424199cf934f839040b",
+      "width": 1024,
+      "height": 1024
+    }
+  },
+  "placement_offsets_y": {
+    "mast": -0.8,
+    "dwarf": -0.3
+  },
+  "winding": "source order preserved; one uniform reversal for reflected MSTS coordinates",
+  "lens_material": {
+    "albedo": "lens_glass_albedo.png",
+    "emission": "lens_glass_emission.png",
+    "resolution": [
+      512,
+      512
+    ],
+    "uvs": "original atlas UVs preserved; material scale/offset fits each lens",
+    "geometry": "unchanged",
+    "generated_texture": "concentric Fresnel ribs with fine vertical fluting"
+  }
+}

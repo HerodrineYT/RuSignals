@@ -1,0 +1,1 @@
+{"checks":336,"profiles":6,"directions":2,"cycles_per_profile":3,"actual_bogies_and_velocities":true,"last_bogie_guard":true,"manual_and_foreign_reservation_guards":true,"live_conflict_release":true,"scope":"Actual SDK UpdateAspect, native bogies and Rigidbody velocities; successive polls on synthetic rails, no supplied save or game session"}

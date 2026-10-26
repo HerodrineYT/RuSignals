@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>RuSignals</AssemblyName>
+    <RootNamespace>RuSignals</RootNamespace>
+    <Version>4.3.4</Version>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GameDir Condition="'$(GameDir)' == ''">F:\steam\steamapps\common\Derail Valley</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tools/**/*.cs" />
+    <Reference Include="Assembly-CSharp"><HintPath>$(GameDir)\DerailValley_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Signals.Common"><HintPath>$(SignalsDir)\Signals.Common.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Signals.Game"><HintPath>$(SignalsDir)\Signals.Game.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DV.RailTrack"><HintPath>$(GameDir)\DerailValley_Data\Managed\DV.RailTrack.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DV.Utils"><HintPath>$(GameDir)\DerailValley_Data\Managed\DV.Utils.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="DV.PointSet"><HintPath>$(GameDir)\DerailValley_Data\Managed\DV.PointSet.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="net.smkd.vector3d"><HintPath>$(GameDir)\DerailValley_Data\Managed\net.smkd.vector3d.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityModManager\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityModManager"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityModManager\UnityModManager.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.AssetBundleModule"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(GameDir)\DerailValley_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(GameDir)\DerailValley_Data\Managed\Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

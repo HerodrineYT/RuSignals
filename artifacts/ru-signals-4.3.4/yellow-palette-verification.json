@@ -1,0 +1,17 @@
+{
+    "checks": 395,
+    "yellow_tints": 96,
+    "other_colours_rgba_checked": 384,
+    "other_colours_bit_exact": true,
+    "green_preserved": true,
+    "matching_native_lights": true,
+    "no_per_frame_work_added": true,
+    "minimum_source_hue_separation": 29.14752197265625,
+    "minimum_rendered_hue_separations": [
+        29.12457275390625,
+        29.438812255859376,
+        24.146331787109376,
+        23.902435302734376
+    ],
+    "scope": "Actual release DLL and GPU shader: all 96 yellows, both optical profiles, native gain endpoints, centre/body/outer ring; red comparison includes its warmest edge. All other RGBA values checked against released 3.0.14 in a separate process. Native lamp/halo/spill colour matching checked by the main fixture. No game map, loading or FPS test."
+}

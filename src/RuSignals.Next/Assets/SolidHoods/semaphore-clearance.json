@@ -1,0 +1,99 @@
+{
+  "head_forward_m": 0.3,
+  "drive_forward_adjustment_m": 0.554858808,
+  "lever_forward_adjustment_m": 0.86,
+  "direct_rod_planes_z_m": [
+    0.31,
+    0.27
+  ],
+  "cam_rear_adjustments_m": [
+    0.535,
+    0.575
+  ],
+  "cam_islands_shifted": 2,
+  "original_mast_members_restored": 9,
+  "bearing_housings_preserved": true,
+  "drive_islands_shifted": 18,
+  "drive_brackets_fitted": 2,
+  "upper_drive_bracket_down_m": 0.24,
+  "raw_rod_rear_m": 0.4,
+  "ladder_rear_m": 0.55,
+  "animation_axes_preserved": true,
+  "restored_front_mast_fittings": 10,
+  "connected_lantern_mounts": 4,
+  "models": {
+    "Semaphore/semaphore_static": {
+      "source_sha256": "f28bf9cc5efa0492c7016b7765dedeb8a623f784b1f95d9edf2321ae650abdb0",
+      "derived_sha256": "83ee5a9784e64360a817ee10ee9c295e99cec8323a7bf0de4554273f65bf91ab",
+      "components_repositioned": 60,
+      "added_mounts": 6,
+      "lower_letter_plate_triangles_removed": 44
+    },
+    "Semaphore/semaphore_lowerfittings": {
+      "source_sha256": "c84f4ea12098bd139378be549be760ec6cd80ca053d36540601750e400cfc860",
+      "derived_sha256": "db056dc14485bf50dee4c597a63bbde09ac2655206f444a687eed212f75efe95",
+      "components_repositioned": 16,
+      "added_mounts": 4
+    },
+    "Semaphore/semaphore_upper": {
+      "source_sha256": "da36184051b0faca242b7071a782a88db16e53da6af549f371f78522ae6f3d88",
+      "derived_sha256": "3a93f13872a6c70f7cc6ff91f0d3174f571afa3872f1e33b869ed3b35ef8433b",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_lower": {
+      "source_sha256": "960f6d9f07569dd3d6c7d594a6d3ea3df17773021e400c5191d14ded04d36770",
+      "derived_sha256": "d7e91026c8d144ed6ca9cdcc98794dec82311b0b7b644ad7194aa115a11468e7",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_upperselector": {
+      "source_sha256": "3d5c590b04ef88d3ee3277b4b7f63e03fe7e34287a9c0c1760cdcfdac419f6f0",
+      "derived_sha256": "42469b1c80710fb343eb6f61c7fd9453077fbf6a28d9fb500b5f880607866df3",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_lowerselector": {
+      "source_sha256": "a8f6c0996401981d662149bec473e666d1cee4df4f071cdc189a697aa116e5a6",
+      "derived_sha256": "adf15d4c96c57d34b0b9c5e3d0a582c7cffb49b5d47e0cd0202c210bd2f9b7ce",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_UpperRedLens": {
+      "source_sha256": "2ed5aab8a24e02336d4f63af3c0d722fdb7d926283bd82763cdc72efe9ee68dc",
+      "derived_sha256": "9d43873ca573dca8550f7678294502dc6b4f2f8035609d63c51fedb138964afa",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_UpperGreenLens": {
+      "source_sha256": "22b2896a6477a3761da022385cc2901b1a6677b91a3ed64bad4b99b805019b27",
+      "derived_sha256": "c6dd71cc7749c7423019e0bb5e4dd7cd4bb6c9f6f1c9605a8839d0d84ceddb90",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_LowerYellowLens": {
+      "source_sha256": "7f2c8c3dddf9008e75f86b6941eeb350da260f03d78659d9985ffcbf1f675fd6",
+      "derived_sha256": "4a784246769215a0e0ad277675f713821c62d48f7e26e1a687ec432b0a41d707",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_lever": {
+      "source_sha256": "e8f4b4da900ef72a32203f9927dd3acb631ee98d5b5043669031d191e4a3300d",
+      "derived_sha256": "7273322ae943dcaf0de94d791bb0c95e873b38fb2f4269c04578a02d0ac24a38",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_upperrod": {
+      "source_sha256": "f6752e5a9893ab462192ca73bc5c79d19135a99229276c4917c4e7bb4f7ff509",
+      "derived_sha256": "bdefe8589045628d3bd13e5ab9960cb574c2ee9361f6abf0603ddd8ad3fb05ef",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    },
+    "Semaphore/semaphore_lowerrod": {
+      "source_sha256": "13052a9581b9cd312efdfc74df92cbbd8592f371cf1ccc57ebaa22eebce6a12e",
+      "derived_sha256": "cb5d0c603c43e328f9b6a4c58bbba4614bd39fbb00ace1b1f1061e5744c565e0",
+      "components_repositioned": 1,
+      "added_mounts": 0
+    }
+  }
+}

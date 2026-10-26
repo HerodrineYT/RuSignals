@@ -1,0 +1,1 @@
+{"checks":27,"unadapted_red_cases":4,"adapter":"1.0.0.0","approach_excluded":true,"disjoint_occupancy":true,"native_fallback":true,"manual_overlap_opposing_guards":true,"scope":"Actual loaded ADS BlockOccupied and SDK native interval occupancy/reservations, synthetic rails; no server, save or multiplayer calls"}

@@ -1,0 +1,29 @@
+{
+  "reference": "https://poezdvl.com/vychislitelnaia-tehnika-na-zhd-rf/dvukrylyi-semafor.html",
+  "scope": "Functional reconstruction of common profiled wheel, coaxial arms, pin-jointed rigid rods, wire transmission and fixed lanterns; inferred dimensions, not certified factory drawing.",
+  "fixed_drive_axis": [
+    0,
+    0.97
+  ],
+  "wing_pin": [
+    0.1847759065,
+    -0.0765366865
+  ],
+  "rod_lengths": [
+    7.08,
+    5.8
+  ],
+  "rod_planes": [
+    0.48,
+    0.54
+  ],
+  "wheel_radius": 0.1525,
+  "wheel_axis": [
+    0.04,
+    0.97,
+    0.43
+  ],
+  "shared_meshes": true,
+  "individual_updates": 0,
+  "fixed_lanterns": true
+}

@@ -1,0 +1,643 @@
+{
+  "scope": "net8 SDK doubles; same topology/workload for both versions; not Unity/game FPS",
+  "corridors": 8,
+  "signals": 0,
+  "checksum": 2212970769022320000,
+  "scansPerPass": 2,
+  "glyphs": [
+    {
+      "text": "1",
+      "normal": 558482096648,
+      "small": 558482096648
+    },
+    {
+      "text": "2",
+      "normal": 4127602116888,
+      "small": 4127602116888
+    },
+    {
+      "text": "3",
+      "normal": 1688465443096,
+      "small": 1688465443096
+    },
+    {
+      "text": "4",
+      "normal": 1117703454980,
+      "small": 1117703454980
+    },
+    {
+      "text": "5",
+      "normal": 1688467521852,
+      "small": 1688467521852
+    },
+    {
+      "text": "6",
+      "normal": 1688533483832,
+      "small": 1688533483832
+    },
+    {
+      "text": "7",
+      "normal": 279242147900,
+      "small": 279242147900
+    },
+    {
+      "text": "8",
+      "normal": 1688532568344,
+      "small": 1688532568344
+    },
+    {
+      "text": "9",
+      "normal": 1959056787512,
+      "small": 1959056787736
+    },
+    {
+      "text": "10",
+      "normal": 1758345976153,
+      "small": 1758345976153
+    },
+    {
+      "text": "11",
+      "normal": 628292358729,
+      "small": 628292358729
+    },
+    {
+      "text": "12",
+      "normal": 4197412378969,
+      "small": 4197412378969
+    },
+    {
+      "text": "13",
+      "normal": 1758275705177,
+      "small": 1758275705177
+    },
+    {
+      "text": "14",
+      "normal": 1187513717061,
+      "small": 1187513717061
+    },
+    {
+      "text": "15",
+      "normal": 1758277783933,
+      "small": 1758277783933
+    },
+    {
+      "text": "16",
+      "normal": 1758343745913,
+      "small": 1758343745913
+    },
+    {
+      "text": "17",
+      "normal": 349052409981,
+      "small": 349052409981
+    },
+    {
+      "text": "18",
+      "normal": 1758342830425,
+      "small": 1758342830425
+    },
+    {
+      "text": "19",
+      "normal": 2028867049593,
+      "small": 2028867049817
+    },
+    {
+      "text": "20",
+      "normal": 4374050818879,
+      "small": 4374050818879
+    },
+    {
+      "text": "21",
+      "normal": 4347871971095,
+      "small": 4347871971095
+    },
+    {
+      "text": "22",
+      "normal": 4339158370623,
+      "small": 4339158370623
+    },
+    {
+      "text": "23",
+      "normal": 4365330827583,
+      "small": 4365330827583
+    },
+    {
+      "text": "24",
+      "normal": 2716063419183,
+      "small": 2716063419183
+    },
+    {
+      "text": "25",
+      "normal": 4365330727743,
+      "small": 4365330727743
+    },
+    {
+      "text": "26",
+      "normal": 4374054880063,
+      "small": 4374054880063
+    },
+    {
+      "text": "27",
+      "normal": 1599092967743,
+      "small": 1599092967743
+    },
+    {
+      "text": "28",
+      "normal": 4374055013183,
+      "small": 4374055013183
+    },
+    {
+      "text": "29",
+      "normal": 4365330860863,
+      "small": 4365330860863
+    },
+    {
+      "text": "30",
+      "normal": 4377322375999,
+      "small": 4377322375999
+    },
+    {
+      "text": "31",
+      "normal": 4351143528215,
+      "small": 4351143528215
+    },
+    {
+      "text": "32",
+      "normal": 4342429927743,
+      "small": 4342429927743
+    },
+    {
+      "text": "33",
+      "normal": 4368602384703,
+      "small": 4368602384703
+    },
+    {
+      "text": "34",
+      "normal": 2719334976303,
+      "small": 2719334976303
+    },
+    {
+      "text": "35",
+      "normal": 4368602284863,
+      "small": 4368602284863
+    },
+    {
+      "text": "36",
+      "normal": 4377326437183,
+      "small": 4377326437183
+    },
+    {
+      "text": "37",
+      "normal": 1602364524863,
+      "small": 1602364524863
+    },
+    {
+      "text": "38",
+      "normal": 4377326570303,
+      "small": 4377326570303
+    },
+    {
+      "text": "39",
+      "normal": 4368602417983,
+      "small": 4368602417983
+    },
+    {
+      "text": "40",
+      "normal": 4171163949949,
+      "small": 4171163949949
+    },
+    {
+      "text": "41",
+      "normal": 4144985102165,
+      "small": 4144985102165
+    },
+    {
+      "text": "42",
+      "normal": 4136271501693,
+      "small": 4136271501693
+    },
+    {
+      "text": "43",
+      "normal": 4162443958653,
+      "small": 4162443958653
+    },
+    {
+      "text": "44",
+      "normal": 2513176550253,
+      "small": 2513176550253
+    },
+    {
+      "text": "45",
+      "normal": 4162443858813,
+      "small": 4162443858813
+    },
+    {
+      "text": "46",
+      "normal": 4171168011133,
+      "small": 4171168011133
+    },
+    {
+      "text": "47",
+      "normal": 1396206098813,
+      "small": 1396206098813
+    },
+    {
+      "text": "48",
+      "normal": 4171168144253,
+      "small": 4171168144253
+    },
+    {
+      "text": "49",
+      "normal": 4162443991933,
+      "small": 4162443991933
+    },
+    {
+      "text": "50",
+      "normal": 4377322363519,
+      "small": 4377322363519
+    },
+    {
+      "text": "51",
+      "normal": 4351143515735,
+      "small": 4351143515735
+    },
+    {
+      "text": "52",
+      "normal": 4342429915263,
+      "small": 4342429915263
+    },
+    {
+      "text": "53",
+      "normal": 4368602372223,
+      "small": 4368602372223
+    },
+    {
+      "text": "54",
+      "normal": 2719334963823,
+      "small": 2719334963823
+    },
+    {
+      "text": "55",
+      "normal": 4368602272383,
+      "small": 4368602272383
+    },
+    {
+      "text": "56",
+      "normal": 4377326424703,
+      "small": 4377326424703
+    },
+    {
+      "text": "57",
+      "normal": 1602364512383,
+      "small": 1602364512383
+    },
+    {
+      "text": "58",
+      "normal": 4377326557823,
+      "small": 4377326557823
+    },
+    {
+      "text": "59",
+      "normal": 4368602405503,
+      "small": 4368602405503
+    },
+    {
+      "text": "60",
+      "normal": 4378412882559,
+      "small": 4378412882559
+    },
+    {
+      "text": "61",
+      "normal": 4352234034775,
+      "small": 4352234034775
+    },
+    {
+      "text": "62",
+      "normal": 4343520434303,
+      "small": 4343520434303
+    },
+    {
+      "text": "63",
+      "normal": 4369692891263,
+      "small": 4369692891263
+    },
+    {
+      "text": "64",
+      "normal": 2720425482863,
+      "small": 2720425482863
+    },
+    {
+      "text": "65",
+      "normal": 4369692791423,
+      "small": 4369692791423
+    },
+    {
+      "text": "66",
+      "normal": 4378416943743,
+      "small": 4378416943743
+    },
+    {
+      "text": "67",
+      "normal": 1603455031423,
+      "small": 1603455031423
+    },
+    {
+      "text": "68",
+      "normal": 4378417076863,
+      "small": 4378417076863
+    },
+    {
+      "text": "69",
+      "normal": 4369692924543,
+      "small": 4369692924543
+    },
+    {
+      "text": "70",
+      "normal": 4031542643519,
+      "small": 4031542643519
+    },
+    {
+      "text": "71",
+      "normal": 4005363795735,
+      "small": 4005363795735
+    },
+    {
+      "text": "72",
+      "normal": 3996650195263,
+      "small": 3996650195263
+    },
+    {
+      "text": "73",
+      "normal": 4022822652223,
+      "small": 4022822652223
+    },
+    {
+      "text": "74",
+      "normal": 2373555243823,
+      "small": 2373555243823
+    },
+    {
+      "text": "75",
+      "normal": 4022822552383,
+      "small": 4022822552383
+    },
+    {
+      "text": "76",
+      "normal": 4031546704703,
+      "small": 4031546704703
+    },
+    {
+      "text": "77",
+      "normal": 1256584792383,
+      "small": 1256584792383
+    },
+    {
+      "text": "78",
+      "normal": 4031546837823,
+      "small": 4031546837823
+    },
+    {
+      "text": "79",
+      "normal": 4022822685503,
+      "small": 4022822685503
+    },
+    {
+      "text": "80",
+      "normal": 4378412899199,
+      "small": 4378412899199
+    },
+    {
+      "text": "81",
+      "normal": 4352234051415,
+      "small": 4352234051415
+    },
+    {
+      "text": "82",
+      "normal": 4343520450943,
+      "small": 4343520450943
+    },
+    {
+      "text": "83",
+      "normal": 4369692907903,
+      "small": 4369692907903
+    },
+    {
+      "text": "84",
+      "normal": 2720425499503,
+      "small": 2720425499503
+    },
+    {
+      "text": "85",
+      "normal": 4369692808063,
+      "small": 4369692808063
+    },
+    {
+      "text": "86",
+      "normal": 4378416960383,
+      "small": 4378416960383
+    },
+    {
+      "text": "87",
+      "normal": 1603455048063,
+      "small": 1603455048063
+    },
+    {
+      "text": "88",
+      "normal": 4378417093503,
+      "small": 4378417093503
+    },
+    {
+      "text": "89",
+      "normal": 4369692941183,
+      "small": 4369692941183
+    },
+    {
+      "text": "90",
+      "normal": 4377322380159,
+      "small": 4377322380159
+    },
+    {
+      "text": "91",
+      "normal": 4351143532375,
+      "small": 4351143532375
+    },
+    {
+      "text": "92",
+      "normal": 4342429931903,
+      "small": 4342429931903
+    },
+    {
+      "text": "93",
+      "normal": 4368602388863,
+      "small": 4368602388863
+    },
+    {
+      "text": "94",
+      "normal": 2719334980463,
+      "small": 2719334980463
+    },
+    {
+      "text": "95",
+      "normal": 4368602289023,
+      "small": 4368602289023
+    },
+    {
+      "text": "96",
+      "normal": 4377326441343,
+      "small": 4377326441343
+    },
+    {
+      "text": "97",
+      "normal": 1602364529023,
+      "small": 1602364529023
+    },
+    {
+      "text": "98",
+      "normal": 4377326574463,
+      "small": 4377326574463
+    },
+    {
+      "text": "99",
+      "normal": 4368602422143,
+      "small": 4368602422143
+    },
+    {
+      "text": "\\",
+      "normal": 34630287489,
+      "small": 34630287489
+    },
+    {
+      "text": "|",
+      "normal": 279241048324,
+      "small": 279241048324
+    },
+    {
+      "text": "/",
+      "normal": 1108378656,
+      "small": 1108378656
+    },
+    {
+      "text": "Left",
+      "normal": 34630287489,
+      "small": 34630287489
+    },
+    {
+      "text": "Right",
+      "normal": 1108378656,
+      "small": 1108378656
+    },
+    {
+      "text": "-",
+      "normal": 16515072,
+      "small": 16515072
+    },
+    {
+      "text": "",
+      "normal": 0,
+      "small": 0
+    },
+    {
+      "text": "00",
+      "normal": 0,
+      "small": 0
+    },
+    {
+      "text": "100",
+      "normal": 0,
+      "small": 0
+    },
+    {
+      "text": "007",
+      "normal": 279242147900,
+      "small": 279242147900
+    },
+    {
+      "text": " 7 ",
+      "normal": 279242147900,
+      "small": 279242147900
+    },
+    {
+      "text": "-1",
+      "normal": 0,
+      "small": 0
+    },
+    {
+      "text": "unknown",
+      "normal": 0,
+      "small": 0
+    }
+  ],
+  "results": [
+    {
+      "name": "clear interval occupancy",
+      "iterations": 100000,
+      "median_ms": 7.5888,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "disjoint interval conflicts",
+      "iterations": 100000,
+      "median_ms": 10.8317,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "same interval conflicts",
+      "iterations": 100000,
+      "median_ms": 9.7024,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "corridor direction, no reservations",
+      "iterations": 100000,
+      "median_ms": 53.916,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "same corridor direction comparison",
+      "iterations": 100000,
+      "median_ms": 23.2322,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "corridor direction, live reservation",
+      "iterations": 100000,
+      "median_ms": 19.2832,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "two digit panel mask",
+      "iterations": 100000,
+      "median_ms": 4.7073,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "track number normalization",
+      "iterations": 100000,
+      "median_ms": 3.9772,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "full native entry aspect-selection pass",
+      "iterations": 100000,
+      "median_ms": 147.9899,
+      "bytes_per_operation": 1048.02792
+    },
+    {
+      "name": "stationary approach direction proof",
+      "iterations": 100000,
+      "median_ms": 13.3699,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "reversed-out approach direction proof",
+      "iterations": 100000,
+      "median_ms": 12.3372,
+      "bytes_per_operation": 0
+    },
+    {
+      "name": "entry with opposing reservation wholly before mast",
+      "iterations": 100000,
+      "median_ms": 27.9864,
+      "bytes_per_operation": 0
+    }
+  ]
+}

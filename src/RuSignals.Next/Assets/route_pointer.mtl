@@ -1,0 +1,7 @@
+newmtl part0
+Kd 1 1 1
+map_Kd t_signal.png
+
+newmtl part1
+Kd 1 1 1
+map_Kd t_signal.png

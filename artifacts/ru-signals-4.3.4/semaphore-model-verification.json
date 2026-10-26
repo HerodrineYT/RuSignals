@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "reference_version": "4.3.3",
+  "unchanged_assets": 158,
+  "original_optical_assets_unchanged": true,
+  "original_rod_assets_unchanged": true,
+  "current_mesh_sha256": {
+    "SolidHoods/Semaphore/semaphore_lowerfittings.rsm": "db056dc14485bf50dee4c597a63bbde09ac2655206f444a687eed212f75efe95",
+    "SolidHoods/Semaphore/semaphore_static.rsm": "8dd9088e21e4a9ef7c23f527c3508d04c75947c5b612d1dd573640e04df6496a"
+  },
+  "scope": "All158 resources byte-identical; C# import fits only two platform support prisms. Their actual imported geometry is covered by platform-support-verification.json. Every rod, wing, lamp and transmission resource and motion source preserved."
+}
